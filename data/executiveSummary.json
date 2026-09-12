@@ -1,0 +1,268 @@
+{
+  "kicker": "Cobalt Analytix · Prepared for PlayBlue · Executive Summary",
+  "title": "PlayBlue: what the _evidence_ says before the doors open",
+  "lede": "A sector and client analysis assembled from public sources ahead of our working session. It sizes the opportunity from first principles rather than from headline projections, locates PlayBlue precisely within the value chain, and names the decisions still open ahead of the Bengaluru launch. This page distills the seven findings that matter most — the full evidence, market data, competitive arena, and proposal live on the [detailed research](/detailed-research) page.",
+  "stats": [
+    { "v": "Layer 3", "l": "Of 5 value-chain layers in Indian sports retail — genuine multi-brand curated retail — is essentially unoccupied at scale" },
+    { "v": "₹11,617 Cr", "l": "Combined FY23 India revenue of Asics+Puma+Adidas+Skechers — PlayBlue's _supplier pool_, not its competitor set" },
+    { "v": "9.7%", "l": "Of Indians exercised on a given day, 2024 government time-use survey" },
+    { "v": "−64%", "l": "YoY fall in new Grade A mall supply, H1 2026 — into a 150-store plan" },
+    { "v": "13.6M", "l": "Paid gym memberships in India, growing ~11% a year to 23.3M by 2030" }
+  ],
+  "findings": [
+    {
+      "num": "A",
+      "defaultOpen": true,
+      "title": "Indian sports retail sits in five distinct layers, and PlayBlue's opportunity depends on which one it is judged against",
+      "desc": "Brand principals, vertically integrated retailers, multi-brand curators, marketplaces, and unorganised trade each run a different economic model. PlayBlue occupies the layer with the least competition — and the least proof of concept.",
+      "body": [
+        {
+          "type": "table",
+          "columns": [
+            { "label": "Layer", "minWidth": 170 },
+            { "label": "Who" },
+            { "label": "Revenue model" },
+            { "label": "Relationship to PlayBlue" }
+          ],
+          "highlightRows": [2],
+          "rows": [
+            [
+              { "text": "1 · Brand principals", "strong": true },
+              { "text": "Nike, Adidas, Puma, Asics, Yonex" },
+              { "text": "Design + own the product, sell wholesale plus own D2C" },
+              { "text": "Suppliers", "mono": true, "color": "teal" }
+            ],
+            [
+              { "text": "2 · Vertically integrated retail", "strong": true },
+              { "text": "Decathlon, Technosport, BlissClub" },
+              { "text": "Own product, own manufacturing, own stores — full margin" },
+              { "text": "Structural competitor", "mono": true, "color": "rose" }
+            ],
+            [
+              { "text": "3 · Multi-brand curated retail", "strong": true },
+              { "text": "_PlayBlue's actual layer_" },
+              { "text": "Buy wholesale from many brands, resell — retail margin only" },
+              { "text": "This is the comparison that matters", "mono": true, "color": "cobalt" }
+            ],
+            [
+              { "text": "4 · Marketplaces", "strong": true },
+              { "text": "Amazon, Flipkart, Myntra, Ajio" },
+              { "text": "Platform / commission, third-party inventory" },
+              { "text": "Compete for discovery, not shelf", "mono": true, "color": "mute" }
+            ],
+            [
+              { "text": "5 · Unorganised retail", "strong": true },
+              { "text": "Local multi-brand shops" },
+              { "text": "Cash, price-led" },
+              { "text": "The real default outside metros", "mono": true, "color": "mute" }
+            ]
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Why Decathlon is not a direct comparator",
+          "text": "Decathlon designs, sources and retails only its own roughly 20 in-house brands — which is precisely why it is legally classified as a **single-brand** retailer under Indian FDI rules, not a multi-brand one, however multi-brand it looks on the shop floor. It captures manufacturer margin _and_ retail margin. PlayBlue, buying wholesale and reselling, only ever captures the retail margin. Comparing their revenue in isolation is closer to comparing a fashion label's turnover to a department store that stocks it: same shelf, structurally different business. Nike, Adidas and Puma are PlayBlue's **suppliers**, and only compete with it narrowly, through their own flagship stores."
+        },
+        {
+          "type": "field",
+          "label": "Where PlayBlue's actual layer stands today",
+          "text": "Layer 3 — genuine multi-brand curated sports retail at national scale — is close to empty in India. No dedicated chain occupies it the way Foot Locker or JD Sports do in other markets. Reliance Retail has been reported since mid-2024 to be exploring a Decathlon-rival sports format and was separately reported to be seeking government permission to operate as a multi-brand retailer specifically so it could stock rival brands — the same regulatory question PlayBlue will eventually face. As of this brief, Reliance's sports format has not launched; the most visible recent Reliance sports-adjacent activity is Yousta's licensed FIFA apparel collection, which is fashion merchandise, not curated multi-brand sports retail."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "An empty layer is genuinely two different stories depending on why it's empty. Either nobody has executed multi-brand sports curation well in India yet — the opportunity PlayBlue is betting on — or the model doesn't travel here for structural reasons: FDI friction, thinner margins than vertical integration, or Indian consumers simply preferring the price of Layer 2 to the curation of Layer 3. That distinction is worth surfacing directly with the PlayBlue team, rather than assumed in either direction."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 37", "tone": "s", "srcId": "r37" },
+          { "label": "SRC 38", "tone": "s", "srcId": "r38" },
+          { "label": "SRC 39", "tone": "s", "srcId": "r39" },
+          { "label": "SRC 40", "tone": "s", "srcId": "r40" }
+        ] }
+      ]
+    },
+    {
+      "num": "B",
+      "title": "The participation narrative does not survive contact with the government's own data — but the commercially relevant slice does",
+      "desc": "India is not yet a sport-playing nation by any measured definition. It is becoming an urban, affluent, exercising one.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "India's 2024 Time Use Survey (National Statistics Office, ~450,000 respondents) found 9.7% of Indians exercised on the reference day. Sport specifically was 1.3% of men and 0.3% of women — under 1% overall, and more than four in five of those participants were below 20. Dalberg's baseline study puts adult sports engagement at roughly 10%. Only 10% of adults met WHO daily activity recommendations."
+        },
+        {
+          "type": "field",
+          "label": "The counterweight",
+          "text": "Participation is rising and it is concentrated exactly where a premium retailer wants it. Exercise participation went from 5.7% in 2019 to 9.7% in 2024. Among households spending over ₹24,000 a month it is 17%, against 8.4% for households spending up to ₹6,500. Karnataka sits at 13.7% and Maharashtra at 14.6%, both above the national average. Paid gym memberships stand at 13.6 million, compounding around 11% a year toward 23.3 million by 2030."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "PlayBlue's public framing — \"a nation that watches sport becoming one that plays it\" — is a good brand line and a poor sizing basis. The addressable market is not 1.4 billion people discovering sport; it is roughly 13.6 million paying gym members plus the affluent urban households where exercise participation runs at 17%. That is a smaller, richer, more concentrated target, and it argues _for_ a premium curated format rather than against one. It also implies the Bengaluru-first choice is well made: Karnataka over-indexes."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 23", "tone": "s", "srcId": "r23" },
+          { "label": "SRC 24", "tone": "s", "srcId": "r24" },
+          { "label": "SRC 25", "tone": "s", "srcId": "r25" },
+          { "label": "SRC 26", "tone": "s", "srcId": "r26" },
+          { "label": "Sourced", "tone": "g" }
+        ] }
+      ]
+    },
+    {
+      "num": "C",
+      "title": "Nobody agrees what this market is worth — including by a factor of three",
+      "desc": "Six credible-looking sources give six incompatible numbers. Whichever one goes in the board deck is a choice, not a fact.",
+      "body": [
+        {
+          "type": "table",
+          "columns": [{ "label": "Source" }, { "label": "Definition" }, { "label": "Size" }, { "label": "Growth" }],
+          "rows": [
+            [{ "text": "Expert Market Research" }, { "text": "Sports & fitness goods" }, { "text": "$5.24B (2025) → $10.70B (2035)", "mono": true }, { "text": "7.4%", "mono": true }],
+            [{ "text": "Ken Research" }, { "text": "Sports equipment & outdoor gear" }, { "text": "+$3.40B incremental 2025–32", "mono": true }, { "text": "~7.4%", "mono": true }],
+            [{ "text": "Grand View" }, { "text": "Athleisure, India" }, { "text": "Not stated", "mono": true }, { "text": "12.7%", "mono": true }],
+            [{ "text": "Secondary compilation" }, { "text": "Activewear, India" }, { "text": "$15.11B (2024) → $29.97B (2030)", "mono": true }, { "text": "12.2%", "mono": true }],
+            [{ "text": "PlayBlue (Jayam Vora)" }, { "text": "Sports & active lifestyle" }, { "text": ">$30B by 2035", "mono": true }, { "text": "Not stated", "mono": true }],
+            [{ "text": "Centre Court Capital" }, { "text": "Sports economy (incl. media, leagues)" }, { "text": "~$19B → ~$40B by 2030", "mono": true }, { "text": "Not stated", "mono": true }]
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Why they diverge",
+          "text": "Three different things are being measured under similar names — hard goods and equipment, apparel and athleisure, and the total sports economy including media rights and leagues. The apparel numbers are inflated by athleisure, most of which is bought as fashion and never used for sport. The sports-economy numbers include revenue PlayBlue cannot address at all."
+        },
+        {
+          "type": "highlight",
+          "label": "The practical consequence",
+          "text": "A Series A deck built on \"$30 billion by 2035\" will be tested by any diligent investor, and the goods-only forecasts land closer to $10.7 billion. The defensible framing is bottom-up: gym memberships, participation by income band, catchment-level household counts. That is buildable, and it is what an investor with a sports-sector thesis will actually respect."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 21", "tone": "s", "srcId": "r21" },
+          { "label": "SRC 18", "tone": "s", "srcId": "r18" },
+          { "label": "SRC 27", "tone": "s", "srcId": "r27" },
+          { "label": "SRC 05", "tone": "s", "srcId": "r5" },
+          { "label": "SRC 13", "tone": "s", "srcId": "r13" }
+        ] }
+      ]
+    },
+    {
+      "num": "D",
+      "title": "The 150-store plan collides with a physical shortage of retail space",
+      "desc": "Grade A mall supply fell 64% year on year while rents on the exact high streets PlayBlue wants rose 12–22%.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "H1 2026 gross retail leasing across India's top seven cities hit a four-year high of 6.27 million sq ft, up 10.5%. New shopping mall supply fell 64% year on year, and no new Grade A mall space was added for two consecutive quarters. Retailers are being pushed into Grade B assets. Mumbai, Delhi NCR and Bengaluru together took over 75% of H1 leasing — the same three cities in PlayBlue's rollout. Rents on Bengaluru's Indiranagar 100 Feet Road rose 12% year on year; Mumbai's Linking Road rose 22%. The 2026–28 pipeline is 12.7 million sq ft."
+        },
+        {
+          "type": "field",
+          "label": "Who else is bidding",
+          "text": "Decathlon is adding roughly 80 stores on a €100M commitment, moving from around 110–132 stores to 190 across 90+ cities. Puma already operates over 570 stores. Technosport has announced 300 new stores on a ₹200 Cr investment. Domestic brands accounted for 79% of H1 2026 leasing."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "150 stores in five years is not primarily a capital problem, it is a supply and site-quality problem in a rising-rent market against better-capitalised bidders. At 15,000 sq ft, PlayBlue needs anchor-scale space, which is the scarcest and most contested category. This converts site selection from a real-estate task into a strategic one: getting the catchment wrong is expensive, and getting it wrong twice is fatal to the profitability target."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 28", "tone": "s", "srcId": "r28" },
+          { "label": "SRC 29", "tone": "s", "srcId": "r29" },
+          { "label": "SRC 30", "tone": "s", "srcId": "r30" },
+          { "label": "SRC 19", "tone": "s", "srcId": "r19" },
+          { "label": "Sourced", "tone": "g" }
+        ] }
+      ]
+    },
+    {
+      "num": "E",
+      "title": "The real threat is Layer 2 growing faster than Layer 3 has ever grown anywhere",
+      "desc": "Vertically integrated challenger brands are the fastest-growing thing in Indian sports retail, and they win by owning product and customer — the opposite of curation.",
+      "body": [
+        {
+          "type": "field",
+          "label": "What the public framing implies",
+          "text": "PlayBlue positions against a gap: no organised place to compare brands and get credible advice. Read carefully, that framing sets up Decathlon and the marketplaces as the obstacles to clear. It does not mention the layer growing fastest of all."
+        },
+        {
+          "type": "field",
+          "label": "What the numbers say — same layer as Decathlon, much smaller, much faster",
+          "text": "Technosport, founded in Bengaluru in 2015, reached ₹436 Cr in FY25 and targets ₹600 Cr in FY26, having raised ₹175 Cr from A91 Partners. It owns its manufacturing and its fabric technology, letting it sell performance wear at entry prices — Decathlon's playbook, executed by a startup. It has announced 300 new stores on a ₹200 Cr investment, putting it in direct competition for the same scarce retail space as PlayBlue. BlissClub went from ₹92 Cr in FY24 to a ₹250 Cr annualised run rate by January 2026 on a single hero product, and is raising a further $25M."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "These are Layer 2 players, structurally the same as Decathlon, not Layer 3 peers of PlayBlue — but they are the ones proving that in India, owning the product and controlling the price beats curating other people's brands, at least so far. That is a direct challenge to the Layer 3 thesis, not a side note. It does not invalidate multi-brand curation, but it means PlayBlue's differentiation has to be demonstrably worth a margin these players do not need to charge — and \"why not build our own brand instead\" is a question the founders will be asked at Series A whether or not we ask it first."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 31", "tone": "s", "srcId": "r31" },
+          { "label": "SRC 32", "tone": "s", "srcId": "r32" }
+        ] }
+      ]
+    },
+    {
+      "num": "F",
+      "title": "The hiring plan is a franker disclosure than the funding announcement",
+      "desc": "Seven job postings state plainly what does not exist. Read together they map the operating gap — and point to Ahmedabad.",
+      "body": [
+        {
+          "type": "field",
+          "label": "What the postings admit",
+          "items": [
+            "**E-commerce Lead:** \"PlayBlue's online store doesn't exist yet\"",
+            "**Logistics Manager:** warehousing, fulfilment, delivery, returns — \"none of that infrastructure exists yet\"",
+            "**Catalog Manager:** for 100+ brands, \"no product data, no images, no specs, no sizing, no structure\"",
+            "**F&A Head:** no finance function; controls, close, compliance and board models to be built",
+            "**HR Head:** no HR function, ahead of multi-city store rollout",
+            "**Senior Buyer:** assortment instinct plus \"the commercial rigour to back it up\"; white spaces explicitly named",
+            "**Lead, Brand Partnerships & B2B:** brand relationships still to be opened"
+          ]
+        },
+        {
+          "type": "highlight",
+          "label": "The Ahmedabad signal",
+          "text": "Four of seven roles are Ahmedabad-based, and they are the corporate ones: finance, HR, buying, partnerships. Stores are Bengaluru, Mumbai and Delhi NCR. A corporate and buying hub appears to be forming in Ahmedabad, distinct from the retail footprint — which is a useful frame for understanding how commercial decisions will flow through the organisation."
+        },
+        {
+          "type": "highlight",
+          "label": "Also worth noting",
+          "amber": true,
+          "text": "The F&A posting refers to \"the models the board and the CFO run the business on.\" That implies both a constituted board and a finance principal already exist. Neither is publicly named."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 15", "tone": "s", "srcId": "r15" },
+          { "label": "Inferred" }
+        ] }
+      ]
+    },
+    {
+      "num": "G",
+      "title": "Multi-brand retail FDI is a live regulatory question, not a historical footnote — and PlayBlue has a foreign co-lead investor",
+      "desc": "Decathlon itself is reportedly petitioning the government to be reclassified as multi-brand. The restriction is current.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "India restricts FDI in multi-brand retail trading while permitting 100% FDI in single-brand retail. Decathlon qualifies as single-brand because its roughly 20 house brands are all owned by Decathlon itself. Decathlon has reportedly been in discussion with the government seeking permission to operate as a multi-brand retailer specifically so it can stock competitor products such as Adidas and Garmin — confirming the distinction is actively enforced today, not a dormant rule."
+        },
+        {
+          "type": "field",
+          "label": "Why it is relevant to PlayBlue specifically",
+          "text": "PlayBlue's core model — reselling 100+ third-party brands under one roof — is definitionally multi-brand retail. Its seed round was co-led by MIXI Global Investments, a Japanese investor. Whether that capital constitutes FDI into a multi-brand retail trading entity depends on deal structure — holding company layers, franchise arrangements, and where the investment actually sits — which we cannot determine from public filings."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "This is a structuring question for legal counsel rather than a conclusion we are positioned to draw. But given how fundamental it is to a business model built entirely on multi-brand curation, it merits a direct conversation rather than an assumption in either direction. If already resolved through the current deal structure, that is a straightforward point of confirmation. If not yet addressed, closing it before Mumbai and Delhi NCR add further scale is the lower-cost path."
+        },
+        { "type": "chips", "items": [
+          { "label": "SRC 38", "tone": "s", "srcId": "r38" },
+          { "label": "SRC 41", "tone": "s", "srcId": "r41" },
+          { "label": "Needs specialist legal read", "tone": "w" }
+        ] }
+      ]
+    }
+  ],
+  "proposalCallout": "A four-week Launch Readiness Diagnostic that tests PlayBlue's four stated differentiators, ranks category demand, and maps the price corridor against Decathlon — in the last window where the answers can still change the store."
+}
