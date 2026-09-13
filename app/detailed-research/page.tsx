@@ -43,7 +43,7 @@ export default function DetailedResearchPage() {
               Client resolution, market sizing, the value chain, the competitive arena, trend
               analysis, strategic implications, the proposed engagement, and the wider roadmap —
               in full, with sources. See the{" "}
-              <Link href="/executive-summary">executive summary</Link> for the seven headline
+              <Link href="/executive-summary">executive summary</Link> for the six headline
               findings. Use the tabs above to move between sections — one section is shown at a
               time.
             </p>

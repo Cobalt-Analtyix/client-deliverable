@@ -1,0 +1,341 @@
+{
+  "_readme": "Feed this alongside claude-code-prompt.md. Fields ending in _replacement or newX map to existing data/*.json files as described in the prompt. Any url field set to 'VERIFY_URL' is NOT ready to publish — see needsVerification handling in the prompt.",
+
+  "figureCorrections": [
+    { "find": "13.6M", "replace": "12.3M", "note": "gym members — Deloitte x HFA 2024, not GrabOn" },
+    { "find": "13.6 million", "replace": "12.3 million", "note": "same, prose form" },
+    { "find": "\u20b911,617 Cr", "replace": "DELETE — chart removed, see arenaUpdates.deleteSuppliersChart", "note": "combined supplier bar mixes CY23/FY23/FY24/FY25, two components unsourced" },
+    { "find": "\u20b93,274 Cr\", \"sub\": \"CY2024\"", "replace": "\u20b93,274.8 Cr\", \"sub\": \"CY23\"", "note": "Puma is Dec year-end, was mislabeled CY2024" },
+    { "find": "\u20b93,114 Cr", "replace": "DELETE — no verifiable source found for Adidas India revenue at this figure", "note": "" },
+    { "find": "\u20b91,380 Cr", "replace": "DELETE — no verifiable source found for Nike India revenue at this figure", "note": "" },
+    { "find": "\u20b9436 Cr", "replace": "FLAG — Technosport revenue contradicted between sources (\u20b9436 Cr FY25 vs \u20b9300 Cr FY24 crossed); both trace to a flagged aggregator (CEO Vine). Pull MCA filing before republishing any figure.", "note": "" },
+    { "find": "\u20b9175 Cr from A91 Partners", "replace": "FLAG — contradicted (also reported as $25M from A91); verify via MCA/Tracxn before republishing.", "note": "" },
+    { "find": "\u20b992 Cr in FY24 to a \u20b9250 Cr annualised run rate by January 2026", "replace": "\u20b9131.5 Cr FY25 (+51% YoY), net loss \u20b920 Cr (down from \u20b944 Cr FY24 loss) \u2014 per RoC filing via Entrackr", "note": "BlissClub: company-stated ARR replaced with audited RoC figures" },
+    { "find": "returned to profitability in FY24 with \u20b9197 Cr net profit on \u20b94,008 Cr revenue", "replace": "swung between profit and loss across three years: FY23 net loss \u20b918.6 Cr, FY24 net profit \u20b9197.2 Cr, FY25 net loss \u20b965.0 Cr \u2014 one profitable year in three, on ~2\u20133% annual revenue growth", "note": "Decathlon India full three-year picture" },
+    { "find": "H1 2026 gross retail leasing across India's top seven cities hit a four-year high of 6.27 million sq ft, up 10.5%. New shopping mall supply fell 64% year on year", "replace": "2025 full-year retail leasing (top 8 cities) hit a post-COVID high of 9.21 MSF; but Q1 2026 leasing fell to 1.95 MSF, down 28% quarter-on-quarter and 10% year-on-year \u2014 the opposite trend direction from what was previously stated. Grade A/A+ mall vacancy nationally is 5.7%/2.6% (Q1 2026).", "note": "Cushman & Wakefield primary data contradicts the site's current framing entirely; re-source Finding D" },
+    { "find": "No dedicated chain occupies it the way Foot Locker or JD Sports do in other markets", "replace": "DELETE \u2014 factually superseded, see arenaUpdates.newLayerEntries", "note": "Foot Locker is already operating in India (Metro Brands licence, since Oct 2024, Koramangala store live)" }
+  ],
+
+  "newSources": [
+    { "id": "r42", "label": "Tofler / PTI \u2014 Decathlon Sports India FY23\u2013FY25 revenue and profit, via MCA filings.", "url": "VERIFY_URL", "host": "tofler.in", "needsVerification": true },
+    { "id": "r43", "label": "Deloitte India x Health & Fitness Association India \u2014 India Fitness Market Report 2025 (12.3M members, 0.8% penetration, 2024 data).", "url": "VERIFY_URL", "host": "deloitte.com", "needsVerification": true },
+    { "id": "r44", "label": "MoSPI \u2014 Time Use Survey 2024, full report (primary, not via aggregator summary).", "url": "VERIFY_URL", "host": "mospi.gov.in", "needsVerification": true },
+    { "id": "r45", "label": "India Retailing \u2014 Foot Locker India debut, Metro Brands offline + Nykaa Fashion online licence, Koramangala 3,333 sq ft store.", "url": "VERIFY_URL", "host": "indiaretailing.com", "needsVerification": true },
+    { "id": "r46", "label": "Tracxn \u2014 Sports Station (SSIPL) revenue ~\u20b9172 Cr, 70+ stores, 50 cities, brand mix.", "url": "VERIFY_URL", "host": "tracxn.com", "needsVerification": true },
+    { "id": "r47", "label": "Business Standard \u2014 Rakesh Biyani (Future Group CEO-Retail) on Planet Sports peak scale, 18 Dec 2010.", "url": "VERIFY_URL", "host": "business-standard.com", "needsVerification": true },
+    { "id": "r48", "label": "SGI Europe \u2014 JD Sports FY2026 results, own-brand and exclusive share of apparel mix.", "url": "VERIFY_URL", "host": "sgieurope.com", "needsVerification": true },
+    { "id": "r49", "label": "Metro Brands \u2014 FY26 company results, gross/EBITDA margin, Foot Locker licence.", "url": "VERIFY_URL", "host": "metrobrands.com", "needsVerification": true },
+    { "id": "r50", "label": "Modern Retail / WWD \u2014 Nike Consumer Direct Acceleration wholesale-partner cuts, and 2024 wholesale-strategy reversal.", "url": "VERIFY_URL", "host": "modernretail.co", "needsVerification": true },
+    { "id": "r51", "label": "RiseIndia / SSIPL corporate sites \u2014 current Nike India distribution structure since 2022.", "url": "VERIFY_URL", "host": "riseindia.com", "needsVerification": true },
+    { "id": "r52", "label": "Aditya Birla Fashion & Retail \u2014 Reebok India licence announcement, 14 Dec 2021.", "url": "VERIFY_URL", "host": "abfrl.com", "needsVerification": true },
+    { "id": "r53", "label": "Entrackr \u2014 BlissClub RoC filing, FY25 revenue and net loss.", "url": "VERIFY_URL", "host": "entrackr.com", "needsVerification": true },
+    { "id": "r54", "label": "Tofler \u2014 Puma Sports India CY23 revenue, EBITDA, net profit, gross margin.", "url": "VERIFY_URL", "host": "tofler.in", "needsVerification": true },
+    { "id": "r55", "label": "FashionNetwork / Economic Times \u2014 Decathlon global CEO Barbara Martin Coppola on multi-brand licence request, cap at 20% of inventory.", "url": "VERIFY_URL", "host": "fashionnetwork.com", "needsVerification": true },
+    { "id": "r56", "label": "Cushman & Wakefield \u2014 India retail MarketBeat, Q1 2026 leasing and vacancy.", "url": "VERIFY_URL", "host": "cushmanwakefield.com", "needsVerification": true },
+    { "id": "r57", "label": "Invest India / DPIIT \u2014 Consolidated FDI Policy, single-brand vs multi-brand retail trading conditions.", "url": "VERIFY_URL", "host": "investindia.gov.in", "needsVerification": true }
+  ],
+
+  "sourceCorrections": {
+    "r40_replacement": {
+      "id": "r40",
+      "label": "FashionNetwork / Economic Times \u2014 Decathlon global CEO confirms request to sell other brands, capped at 20% of inventory.",
+      "url": "VERIFY_URL",
+      "host": "fashionnetwork.com",
+      "needsVerification": true,
+      "note": "Original r40 label/URL mismatched (label described Decathlon, URL was a Reliance/Outlook Business story). This replaces it. Do not ship until URL confirmed."
+    },
+    "r16_action": "missing from original sequence — either backfill or renumber r17 onward; flag in summary either way"
+  },
+
+  "newStats": [
+    { "v": "\u20b933.3 Cr", "l": "Revenue per store implied by PlayBlue's 5-year plan \u2014 vs \u20b931.3 Cr per store for Decathlon India today, on a fraction of the margin" },
+    { "v": "12.3M", "l": "Gym members in India, 0.8% penetration \u2014 Deloitte x HFA, 2024" },
+    { "v": "27\u201332%", "l": "Realised gross margin ceiling for a pure multi-brand sports retailer, globally (Foot Locker) \u2014 vs Decathlon's full margin capture" },
+    { "v": "3,333 sq ft", "l": "Foot Locker's first South India store (Koramangala, Bengaluru) \u2014 PlayBlue's flagship is planned at 15,000 sq ft" },
+    { "v": "9.7%", "l": "Of Indians exercised on a given day, 2024 government time-use survey" }
+  ],
+
+  "newLede": "A sector and client analysis assembled from public sources ahead of our working session, with every figure verified against primary filings where possible and every disagreement between sources shown rather than resolved silently. It sizes the opportunity from first principles, tests PlayBlue's plan against what Indian multi-brand sports retail has actually done, and names the decisions still open ahead of the Bengaluru launch. This page distills the six findings that matter most \u2014 the full evidence, market data, competitive arena, and proposal live on the [detailed research](/detailed-research) page.",
+
+  "newFindings": [
+    {
+      "num": "A",
+      "defaultOpen": true,
+      "title": "The plan implies roughly triple Decathlon's sales density, on a third of the gross margin",
+      "desc": "The arithmetic a diligent investor runs first, run here: revenue per store, per square foot, against the category leader.",
+      "body": [
+        {
+          "type": "table",
+          "columns": [
+            { "label": "", "minWidth": 170 },
+            { "label": "Decathlon India (FY25)" },
+            { "label": "PlayBlue (5-yr plan)" }
+          ],
+          "rows": [
+            [ { "text": "Revenue", "strong": true }, { "text": "\u20b94,133 Cr", "mono": true }, { "text": "\u20b95,000 Cr", "mono": true } ],
+            [ { "text": "Stores", "strong": true }, { "text": "132", "mono": true }, { "text": "150", "mono": true } ],
+            [ { "text": "Revenue per store", "strong": true }, { "text": "\u20b931.3 Cr", "mono": true, "color": "teal" }, { "text": "\u20b933.3 Cr", "mono": true, "color": "rose" } ],
+            [ { "text": "Typical store size", "strong": true }, { "text": "~30,000\u201343,000 sq ft" }, { "text": "15,000 sq ft" } ],
+            [ { "text": "Implied sales density", "strong": true }, { "text": "\u20b97,300\u201310,400 / sq ft / yr", "mono": true }, { "text": "\u20b922,200 / sq ft / yr", "mono": true, "color": "rose" } ],
+            [ { "text": "Margin structure", "strong": true }, { "text": "Own-brand: manufacturer + retail margin" }, { "text": "Wholesale: retail margin only, ~27\u201332% realised" } ]
+          ]
+        },
+        {
+          "type": "field",
+          "label": "A second test, at store level",
+          "text": "A 15,000 sq ft Bengaluru high-street flagship (Indiranagar 100 Feet Road, \u20b9200/sq ft/month asking) carries roughly \u20b96.3 Cr/yr in rent, CAM, staffing for the expert-guidance model, and overhead. At 30% gross margin, that store needs \u20b921.1 Cr in revenue \u2014 \u20b914,100/sq ft/yr \u2014 just to cover its own fixed costs, before warehouse, e-commerce build, corporate overhead or markdown. That figure is already above Decathlon's demonstrated density."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "This doesn't say the plan is unachievable. It says it requires a sales density no Indian sports retailer has demonstrated, and that the case for it needs to be made explicitly rather than assumed. A Series A conversation opens here."
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 42", "tone": "s", "srcId": "r42" },
+            { "label": "Assumptions ours, stated", "tone": "w" }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "B",
+      "title": "Layer 3 has been occupied before. It has not yet produced a profitable national chain",
+      "desc": "Multi-brand curated sports retail is not an empty layer in India \u2014 it has been attempted repeatedly, at scale, and has not yet worked at national scale.",
+      "body": [
+        {
+          "type": "table",
+          "columns": [
+            { "label": "Operator", "minWidth": 160 },
+            { "label": "Scale" },
+            { "label": "Status" }
+          ],
+          "rows": [
+            [ { "text": "Planet Sports (Future Group)", "strong": true }, { "text": "80 stores, 30 cities, ~\u20b950 Cr turnover" }, { "text": "Wound down", "mono": true, "color": "rose" } ],
+            [ { "text": "Sports Station (SSIPL)", "strong": true }, { "text": "~\u20b9172 Cr, 70+ stores, 50 cities \u2014 Nike, Puma, Adidas, Skechers, Asics, Reebok + own label" }, { "text": "Operating", "mono": true, "color": "cobalt" } ],
+            [ { "text": "VegNonVeg / Superkicks", "strong": true }, { "text": "Premium sneaker boutiques, incl. Bengaluru" }, { "text": "Operating, niche", "mono": true, "color": "mute" } ],
+            [ { "text": "Culture Circle", "strong": true }, { "text": "4,000+ sellers, ~1M monthly users" }, { "text": "Marketplace, not inventory retail", "mono": true, "color": "mute" } ],
+            [ { "text": "Foot Locker India", "strong": true }, { "text": "Metro Brands (offline) + Nykaa Fashion (online), from Oct 2024" }, { "text": "Entering: 3,333 sq ft, Koramangala", "mono": true, "color": "teal" } ]
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What follows",
+          "text": "Sports Station has run multi-brand sports retail for years and sits at ~\u20b9172 Cr \u2014 roughly 4% of Decathlon. That is the demonstrated ceiling for this model in India so far, and PlayBlue's Phase-1 target is 58% of it in year one. And the most experienced new entrant \u2014 Metro Brands, with the capital and the Foot Locker licence to open at any scale \u2014 chose 3,333 sq ft in Bengaluru. PlayBlue is planning 15,000 sq ft in the same city."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "The correct read is not 'the layer is empty.' It is: the layer has been occupied repeatedly and has not yet produced a profitable national chain \u2014 and the best-capitalised recent entrant chose a fifth of PlayBlue's planned format size. That format divergence deserves a direct, explicit answer."
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 46", "tone": "s", "srcId": "r46" },
+            { "label": "SRC 47", "tone": "s", "srcId": "r47" },
+            { "label": "SRC 45", "tone": "s", "srcId": "r45" }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "C",
+      "title": "Gross margin is set by the brands, not by the retailer",
+      "desc": "Realised multi-brand gross margin runs ~27\u201332% globally, and the major brands have spent five years reducing how many partners they sell that margin to.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "Nike's Consumer Direct Acceleration strategy cut roughly half its global wholesale accounts to ~40 strategic partners. In India, Nike went from ~80\u201390 franchisees and ~25 distributors to a handful \u2014 closing ~200 of ~350 stores \u2014 now working through RiseIndia (~37\u201343 premium stores since 2022), with SSIPL moved to equipment distribution and Nykaa taking online from Feb 2026. Adidas runs subsidiary plus exclusive-brand franchise, ~750 stores including Reebok, which is now licensed to ABFRL. Puma is a wholly-owned subsidiary, 440+ stores, ~43% of sales online."
+        },
+        {
+          "type": "field",
+          "label": "The partial counter-current",
+          "text": "Nike's own leadership has acknowledged over-rotating away from wholesale; Nike wholesale grew 8% to $7.5bn in Q2 FY26 against DTC down 8%. The door is opening slightly. It is not open."
+        },
+        {
+          "type": "highlight",
+          "label": "The test that settles it",
+          "text": "Written allocation terms from the top three brands \u2014 MOQ, credit days, season allocation, markdown support, exclusivity \u2014 before the 15,000 sq ft lease is signed. Without fresh-season product committed in writing, the store opens with the wrong inventory. That is precisely what happened to Foot Locker when Nike shifted to DTC: ~60% of mix in one brand, structural decline, and a $2.4bn sale to Dick's Sporting Goods in September 2025."
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 50", "tone": "s", "srcId": "r50" },
+            { "label": "SRC 51", "tone": "s", "srcId": "r51" },
+            { "label": "SRC 52", "tone": "s", "srcId": "r52" },
+            { "label": "Trade terms: evidence gap", "tone": "w" }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "D",
+      "title": "Pure curation does not exist at scale anywhere \u2014 every survivor runs an owned or exclusive line",
+      "desc": "The most useful international read, and it reframes the model rather than challenging it.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "JD Sports \u2014 the multi-brand survivor \u2014 runs ~47% gross margin with own-brand at ~15% of apparel sales and 'Only at JD' exclusives at ~20% of stock units, actively diversifying into challenger brands to cut legacy-brand dependence from ~70%. Metro Brands, the closest Indian equivalent, runs ~50% gross / ~30% EBITDA margin built on owned and exclusive distribution (Clarks, Crocs, Fila, now Foot Locker) \u2014 not open-market curation. Foot Locker, without either, ran ~27.5% gross margin, over-depended on one brand's open-market allocation, and was acquired after ~400 planned store closures. Decathlon itself is petitioning to carry other brands, capped at 20% of inventory."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "The convergent answer across every profitable operator is a mix \u2014 roughly 70\u201380% curated third-party, 20\u201330% owned or exclusive. This is constructive, not fatal: it argues PlayBlue should plan an owned or exclusive-brand line from day one, potentially via exclusive India distribution for challenger brands (On, Hoka, emerging Indian labels), rather than as a later phase. That is a buying decision being made now, and expensive to reverse once the assortment is set."
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 48", "tone": "s", "srcId": "r48" },
+            { "label": "SRC 49", "tone": "s", "srcId": "r49" },
+            { "label": "SRC 55", "tone": "s", "srcId": "r55" }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "E",
+      "title": "The addressable base is narrower and richer than the headline projection",
+      "desc": "The government's own data and the industry's own data both undercut the top-down $30bn figure \u2014 while pointing straight at the segment PlayBlue is already targeting.",
+      "body": [
+        {
+          "type": "field",
+          "label": "What the government measures",
+          "text": "MoSPI's 2024 Time Use Survey: 9.7% of Indians exercised on the reference day (14.5% men, 4.9% women), up from 5.7% in 2019. Sport specifically is under 1%, and over four in five participants are under 20."
+        },
+        {
+          "type": "field",
+          "label": "What the industry measures",
+          "text": "Deloitte x HFA: 12.3 million gym members across 46,500 facilities \u2014 0.8% penetration \u2014 projected to 23.3 million by 2030. Commercial fitness revenue \u20b916,200 Cr (2024) to \u20b937,700 Cr (2030). Only ~15% of physically active 18\u201362-year-olds pay for fitness at all. Exercise participation runs 17% in households above \u20b924,000/month against 8.4% below \u20b96,500; Karnataka sits at 13.7% against the 9.7% national average."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "This argues for the strategy, not against it. The commercially relevant base is not 1.4 billion people discovering sport \u2014 it is ~12.3 million paying fitness consumers plus affluent urban households exercising at 17%, smaller, wealthier, metro-concentrated, and growing. That profile favours a premium curated format and validates Bengaluru-first. It does not support a top-down market-size claim; the Series A deck should be built bottom-up, from households above an income threshold, within a drive-time, at measured activity rates."
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 43", "tone": "s", "srcId": "r43" },
+            { "label": "SRC 44", "tone": "s", "srcId": "r44" }
+          ]
+        }
+      ]
+    },
+    {
+      "num": "F",
+      "title": "Multi-brand retail FDI is a live regulatory question, not a historical footnote",
+      "desc": "India restricts multi-brand retail FDI while permitting 100% FDI in single-brand retail. This is a question for counsel, not for us \u2014 but it is structural to PlayBlue's model.",
+      "body": [
+        {
+          "type": "field",
+          "label": "The evidence",
+          "text": "India permits 100% FDI in single-brand retail via the automatic route. Multi-brand retail trading requires government approval, is capped at 51%, and carries a $100M minimum inflow, 30% MSME sourcing, and city/state consent conditions. Inventory-model multi-brand e-commerce with foreign capital is restricted; only the marketplace model takes 100% FDI. Decathlon's global CEO has confirmed seeking permission to carry other brands, capped at 20% of inventory \u2014 confirming the distinction is actively enforced today."
+        },
+        {
+          "type": "field",
+          "label": "Why it is relevant to PlayBlue specifically",
+          "text": "PlayBlue is Indian-founded with minority foreign seed capital (MIXI Global Investments co-leading), so this is not a present-tense problem \u2014 it becomes one at the next foreign round if the inventory-holding entity scales, since PlayBlue's core model of reselling 100+ third-party brands is definitionally multi-brand retail trading."
+        },
+        {
+          "type": "highlight",
+          "label": "Why this matters commercially",
+          "text": "This is a structuring question for legal counsel, not a conclusion we are positioned to draw. But given how fundamental it is to a model built entirely on multi-brand curation, it merits a direct conversation before Mumbai and Delhi NCR add further scale \u2014 that is the lower-cost point to resolve it.",
+          "amber": true
+        },
+        {
+          "type": "chips",
+          "items": [
+            { "label": "SRC 55", "tone": "s", "srcId": "r55" },
+            { "label": "SRC 57", "tone": "s", "srcId": "r57" },
+            { "label": "Needs specialist legal read", "tone": "w" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "newProposalCallout": "A four-week Launch Readiness Diagnostic, run as two parallel tracks: a supply-side track that tests whether the top 100+ brands will allocate fresh-season stock on workable terms, and a demand-side track that tests PlayBlue's four stated differentiators and maps the price corridor against Decathlon \u2014 in the last window where the answers can still change the store.",
+
+  "arenaUpdates": {
+    "deleteSuppliersChart": true,
+    "deleteSuppliersChartNote": "Remove suppliersBars and suppliersCallout entirely \u2014 two of four components (Adidas, Nike India revenue) have no verifiable source, and the combined figure mixes CY23/FY23/FY24/FY25 periods inconsistently. Check Section05Arena.tsx doesn't render an orphaned heading for this chart.",
+    "retailBars": [
+      { "name": "PlayBlue", "sub": "5-yr ambition", "value": "\u20b95,000 Cr", "widthPct": 100, "variant": "t" },
+      { "name": "Decathlon India", "sub": "FY25 \u00b7 single-brand under FDI law", "value": "\u20b94,133 Cr", "widthPct": 82.7 },
+      { "name": "Technosport", "sub": "FY \u2014 figure contested, see flag", "value": "\u20b9300\u2013436 Cr (unverified)", "widthPct": 8, "variant": "q" },
+      { "name": "Sports Station (SSIPL)", "sub": "the actual Layer 3 comparator", "value": "~\u20b9172 Cr", "widthPct": 4.2, "variant": "q" },
+      { "name": "BlissClub", "sub": "FY25, RoC filing", "value": "\u20b9131.5 Cr", "widthPct": 3.2, "variant": "q" },
+      { "name": "PlayBlue", "sub": "phase-1 target", "value": "\u20b9100 Cr", "widthPct": 2, "variant": "t" }
+    ],
+    "retailCallout": {
+      "tone": "amber",
+      "label": "What this chart actually says",
+      "text": "PlayBlue's five-year ambition is 21% larger than Decathlon India's current business \u2014 built over sixteen years, capturing full margin where PlayBlue would capture retail margin only. Sports Station, the actual Layer 3 comparator, sits at ~4% of Decathlon after years of operating \u2014 the honest ceiling this model has demonstrated in India to date. The \u20b9100 Cr phase-one target is 58% of that ceiling, in year one."
+    },
+    "newLayerEntries": [
+      {
+        "title": "Layer 3 \u00b7 Sports Station (SSIPL) \u2014 the operating multi-brand comparator",
+        "desc": "~\u20b9172 Cr \u00b7 70+ stores, 50 cities \u00b7 Nike, Puma, Adidas, Skechers, Asics, Reebok, plus own-label Mmojah",
+        "body": [
+          { "type": "field", "label": "Position", "text": "The actual, operating Layer 3 peer \u2014 buys wholesale from multiple brands and resells under one roof, exactly PlayBlue's model, running today." },
+          { "type": "highlight", "label": "Why this matters", "text": "This is the demonstrated ceiling for pure multi-brand curation in India: roughly 4% of Decathlon's scale after years of operating. PlayBlue's competitive framing should name this comparator directly rather than treating the layer as unoccupied." },
+          { "type": "chips", "items": [ { "label": "SRC 46", "tone": "s", "srcId": "r46" } ] }
+        ]
+      },
+      {
+        "title": "Layer 3 \u00b7 Planet Sports (Future Group) \u2014 the layer's largest prior attempt",
+        "desc": "80 stores, 30 cities, ~\u20b950 Cr turnover at peak \u00b7 wound down with Future Group's collapse",
+        "body": [
+          { "type": "field", "label": "Position", "text": "India's largest-ever multi-brand sports chain by store count. Wound down for reasons tied to Future Group's broader collapse, not necessarily the model itself \u2014 a genuine ambiguity worth surfacing rather than resolving in either direction." },
+          { "type": "chips", "items": [ { "label": "SRC 47", "tone": "s", "srcId": "r47" } ] }
+        ]
+      },
+      {
+        "title": "Layer 3 \u00b7 Foot Locker India \u2014 the newest entrant, and its format choice",
+        "desc": "Metro Brands (offline licence) + Nykaa Fashion (online), live since Oct 2024 \u00b7 first South India store: 3,333 sq ft, Koramangala, Bengaluru",
+        "body": [
+          { "type": "field", "label": "Position", "text": "The best-capitalised recent entrant into curated multi-brand sports/sneaker retail in India, backed by Metro Brands' ~50% gross / ~30% EBITDA margin discipline and exclusive-brand experience." },
+          { "type": "highlight", "label": "Why this matters", "text": "Given the capital and the licence to open at any scale, Metro Brands chose 3,333 sq ft for its first South India store \u2014 in the same city where PlayBlue is planning a 15,000 sq ft flagship. That divergence in format size deserves a direct answer, not an assumption." },
+          { "type": "chips", "items": [ { "label": "SRC 45", "tone": "s", "srcId": "r45" }, { "label": "SRC 49", "tone": "s", "srcId": "r49" } ] }
+        ]
+      }
+    ]
+  },
+
+  "marketUpdates": {
+    "gymMembershipCorrection": {
+      "old": "13.6M paid gym memberships, growing ~11% a year to 23.3M by 2030",
+      "new": "12.3M gym members across 46,500 facilities, 0.8% penetration (2024), projected to 23.3M by 2030",
+      "sourceChip": "r43",
+      "applyTo": ["funnel", "cards", "executiveSummary stats"]
+    },
+    "additionalContext": "Only ~15% of physically active 18\u201362-year-olds pay for fitness at all \u2014 worth adding as a new funnel stage or card if there's room; it sharpens the 'commercially relevant slice' argument."
+  },
+
+  "proposalUpdates": {
+    "trackOne": {
+      "mark": "TRACK 1",
+      "title": "Supply-side: will the brands supply you, and on what terms?",
+      "question": "For a multi-brand retailer this is the existential question, and no amount of consumer research substitutes for it.",
+      "how": "Depth interviews with brand and distributor decision-makers across the target 100+, benchmarked against what SSIPL, RiseIndia, ABFRL, Metro Brands and the marketplaces currently receive.",
+      "attrs": [
+        { "label": "Allocation risk", "value": "Which brands will commit fresh-season product to a first-time buyer, which will not" },
+        { "label": "Terms benchmark", "value": "MOQ, credit days, markdown support, exclusivity clauses vs established partners" },
+        { "label": "Own/exclusive option", "value": "Feasibility and cost of exclusive India distribution for challenger brands (On, Hoka, emerging Indian labels)" }
+      ],
+      "kv": [
+        { "label": "Output", "value": "Partner requirement map, terms benchmark, allocation-risk scenarios, recommended own/exclusive mix target" },
+        { "label": "Decision it de-risks", "value": "Whether to sign the 15,000 sq ft lease, and at what size" }
+      ]
+    },
+    "trackTwoNote": "Existing modules A/B/C (differentiator test, category ranking, price corridor) become Track 2, running in parallel. One methodology fix: replace Van Westendorp with reference-price conjoint or Gabor-Granger for the price module \u2014 Van Westendorp reads unreliably when a strong category anchor exists, and Decathlon's \u20b9399 t-shirt is exactly that anchor.",
+    "feePlaceholder": {
+      "tone": "amber",
+      "label": "Commercials",
+      "text": "Fee and payment schedule to be confirmed once panel rate cards are verified. This must render as a visible placeholder, not be left blank or omitted from the page."
+    }
+  }
+}

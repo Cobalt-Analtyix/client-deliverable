@@ -2,9 +2,9 @@
   {
     "num": "01",
     "defaultOpen": true,
-    "title": "The core strategic question is why Layer 3 is empty, and PlayBlue needs a confident answer",
+    "title": "The core strategic question is why Layer 3 hasn't produced a national winner, and PlayBlue needs a confident answer",
     "body": [
-      { "type": "p", "text": "Genuine multi-brand curated sports retail barely exists in India at scale. That is either the opportunity — nobody has executed it well yet — or a warning that the model runs into structural headwinds here: FDI friction on multi-brand structures, Layer 2 players matching price without sacrificing curation credibility, or thin margins that don't support the staffing \"expert guidance\" requires. PlayBlue's pitch, and its Series A story, needs an explicit answer to \"why hasn't this worked in India before,\" not just \"why we're the ones who can do it.\"" },
+      { "type": "p", "text": "Genuine multi-brand curated sports retail has been attempted repeatedly in India — Planet Sports at scale, Sports Station still operating today, Foot Locker now entering — without yet producing a profitable national chain. That is either the opportunity nobody has closed out, or a warning that the model runs into structural headwinds here: FDI friction on multi-brand structures, Layer 2 players matching price without sacrificing curation credibility, or thin margins that don't support the staffing \"expert guidance\" requires. PlayBlue's pitch, and its Series A story, needs an explicit answer to \"why hasn't this worked at scale in India yet,\" not just \"why we're the ones who can do it.\"" },
       { "type": "chips", "items": [{ "label": "From 01A · 05c" }] }
     ]
   },
@@ -12,7 +12,7 @@
     "num": "02",
     "title": "Sizing has to move from top-down to bottom-up before the Series A",
     "body": [
-      { "type": "p", "text": "The $30B figure will not survive diligence — goods-only forecasts land near $10.7B, and no two sources agree. Meanwhile the government's own data shows sub-1% sport participation. The defensible story is bottom-up: households above an income threshold, within a catchment, at measured activity rates, plus 13.6M gym members growing 11% a year. That is checkable, it is smaller, and it is far more persuasive to an investor whose portfolio is analytics-weighted." },
+      { "type": "p", "text": "The $30B figure will not survive diligence — goods-only forecasts land near $10.7B, and no two sources agree. Meanwhile the government's own data shows sub-1% sport participation. The defensible story is bottom-up: households above an income threshold, within a catchment, at measured activity rates, plus 12.3M gym members growing 11% a year. That is checkable, it is smaller, and it is far more persuasive to an investor whose portfolio is analytics-weighted." },
       { "type": "chips", "items": [{ "label": "From 01C · 03a · 06c" }] }
     ]
   },
@@ -20,7 +20,7 @@
     "num": "03",
     "title": "Site selection is now the highest-value decision in the business",
     "body": [
-      { "type": "p", "text": "Grade A supply down 64%, rents up 12–22% on target high streets, 75% of national leasing concentrated in PlayBlue's three cities, and Decathlon adding 80 stores into the same squeeze. At 15,000 sq ft, PlayBlue needs the scarcest category of space. In that market, catchment quality determines store economics more than format does — and a wrong site cannot be corrected without writing off capex the profitability target cannot absorb." },
+      { "type": "p", "text": "Grade A/A+ mall vacancy nationally is just 5.7%/2.6% (Q1 2026) even as overall leasing volume has cooled from its 2025 high, rents are up 12–22% on target high streets, 75% of national leasing concentrated in PlayBlue's three cities, and Decathlon is adding 80 stores into the same squeeze. At 15,000 sq ft, PlayBlue needs the scarcest category of space. In that market, catchment quality determines store economics more than format does — and a wrong site cannot be corrected without writing off capex the profitability target cannot absorb." },
       { "type": "chips", "items": [{ "label": "From 01D · 06d" }] }
     ]
   },

@@ -47,7 +47,22 @@ export function Section08Proposal() {
         ))}
       </CardGrid>
 
-      <SubHead mark="8b">The three modules</SubHead>
+      <SubHead mark="8b">Track 1 — supply side, runs first</SubHead>
+      <p className="sIntro" style={{ marginBottom: ".7rem" }}>
+        <RT text={proposal.trackOne.question} />
+      </p>
+      <ModuleBox mark={proposal.trackOne.mark} title={proposal.trackOne.title}>
+        <p style={{ fontSize: "13.8px", marginBottom: ".6rem" }}>
+          <strong>How:</strong> <RT text={proposal.trackOne.how} />
+        </p>
+        <AttrGrid items={proposal.trackOne.attrs} />
+        <KV items={proposal.trackOne.kv} />
+      </ModuleBox>
+
+      <SubHead mark="8c">Track 2 — demand side, in parallel</SubHead>
+      <p className="sIntro" style={{ marginBottom: ".7rem" }}>
+        <RT text={proposal.trackTwoNote} />
+      </p>
       {proposal.modules.map((m, i) => (
         <ModuleBox mark={m.mark} title={m.title} key={i}>
           <p style={{ fontSize: "13.8px" }}>
@@ -61,7 +76,7 @@ export function Section08Proposal() {
         </ModuleBox>
       ))}
 
-      <SubHead mark="8c">Four weeks, week by week</SubHead>
+      <SubHead mark="8d">Four weeks, week by week</SubHead>
       <Timeline>
         {proposal.timeline.map((t, i) => (
           <TimelineRow wk={t.wk} title={t.title} key={i}>
@@ -70,7 +85,7 @@ export function Section08Proposal() {
         ))}
       </Timeline>
 
-      <SubHead mark="8d">What you get, and what you keep</SubHead>
+      <SubHead mark="8e">What you get, and what you keep</SubHead>
       <CardGrid>
         {proposal.whatYouGet.map((c, i) => (
           <Card title={c.title} key={i}>
@@ -79,7 +94,7 @@ export function Section08Proposal() {
         ))}
       </CardGrid>
 
-      <SubHead mark="8e">What we need from you, and what this does not do</SubHead>
+      <SubHead mark="8f">What we need from you, and what this does not do</SubHead>
       <CardGrid>
         {proposal.needVsNot.map((c, i) => (
           <div className="card" key={i}>
@@ -97,6 +112,10 @@ export function Section08Proposal() {
 
       <Callout tone="amber" label="On staging">
         <RT text={proposal.stagingCallout} />
+      </Callout>
+
+      <Callout tone="amber" label={proposal.feePlaceholder.label}>
+        <RT text={proposal.feePlaceholder.text} />
       </Callout>
     </Section>
   );

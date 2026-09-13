@@ -17,7 +17,7 @@
     {
       "title": "Kids and women are the fastest-growing end-user segments",
       "body": [
-        { "type": "p", "text": "Globally the kids and children segment is forecast at 11.82% CAGR to 2031 against 91.8% of 2025 revenue coming from adults. In India, women were the largest athleisure segment at 56.8% of 2025 share and also the fastest growing — the insight BlissClub built a ₹250 Cr business on. Both segments are under-served by a format built around serious athletes." },
+        { "type": "p", "text": "Globally the kids and children segment is forecast at 11.82% CAGR to 2031 against 91.8% of 2025 revenue coming from adults. In India, women were the largest athleisure segment at 56.8% of 2025 share and also the fastest growing — the insight BlissClub built a ₹131.5 Cr (FY25, audited) business on. Both segments are under-served by a format built around serious athletes." },
         { "type": "chips", "items": [{ "label": "SRC 35", "tone": "s", "srcId": "r35" }, { "label": "SRC 31", "tone": "s", "srcId": "r31" }] }
       ]
     },
@@ -91,7 +91,7 @@
     {
       "title": "Homegrown sports brands are attracting institutional growth capital",
       "body": [
-        { "type": "p", "text": "Technosport raised ₹175 Cr from A91 Partners; BlissClub has raised over $21M from Elevation Capital and Eight Roads and is raising a further $25M. Capital is validating vertical integration and category focus — the opposite structural bet to multi-brand curation. Worth understanding how PlayBlue's Series A story differentiates from theirs." },
+        { "type": "p", "text": "Technosport is reported to have raised ₹175 Cr from A91 Partners, though also reported elsewhere as $25M — unverified pending MCA/Tracxn confirmation. BlissClub has raised over $21M from Elevation Capital and Eight Roads and is raising a further $25M, against an audited FY25 revenue of ₹131.5 Cr (RoC filing via Entrackr). Capital is validating vertical integration and category focus — the opposite structural bet to multi-brand curation. Worth understanding how PlayBlue's Series A story differentiates from theirs." },
         { "type": "chips", "items": [{ "label": "SRC 31", "tone": "s", "srcId": "r31" }] }
       ]
     },
@@ -105,10 +105,10 @@
   ],
   "realEstate": [
     {
-      "title": "Retail leasing at a four-year high against a collapsing supply pipeline",
+      "title": "Retail leasing hit a post-COVID high in 2025, then fell sharply in Q1 2026",
       "body": [
-        { "type": "p", "text": "H1 2026 gross leasing across the top seven cities reached 6.27 million sq ft, up 10.5% — the highest half-year in four years. New shopping mall supply fell 64% year on year and no new Grade A mall space was added for two consecutive quarters. Retailers are being pushed to evaluate Grade B assets. The 2026–28 pipeline is 12.7 million sq ft, with about 1.6 million sq ft due in H2 2026." },
-        { "type": "chips", "items": [{ "label": "SRC 28", "tone": "s", "srcId": "r28" }, { "label": "SRC 29", "tone": "s", "srcId": "r29" }, { "label": "SRC 30", "tone": "s", "srcId": "r30" }] }
+        { "type": "p", "text": "2025 full-year gross retail leasing across the top eight cities reached a post-COVID high of 9.21 million sq ft. But Q1 2026 leasing fell to 1.95 million sq ft, down 28% quarter-on-quarter and 10% year-on-year — the opposite direction from the sustained four-year-high framing this section previously carried, per Cushman & Wakefield's Q1 2026 MarketBeat. Grade A/A+ mall vacancy nationally sits at 5.7%/2.6% (Q1 2026), so space remains tight even as leasing activity has cooled. The 2026–28 supply pipeline is 12.7 million sq ft." },
+        { "type": "chips", "items": [{ "label": "SRC 56", "tone": "s", "srcId": "r56" }, { "label": "Supersedes prior H1 2026 framing", "tone": "w" }] }
       ]
     },
     {

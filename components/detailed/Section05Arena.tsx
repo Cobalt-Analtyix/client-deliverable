@@ -40,21 +40,7 @@ export function Section05Arena() {
         <RT text={arena.readingCallout.text} />
       </Callout>
 
-      <SubHead mark="5a">Layer 1 — brand principals (suppliers, not competitors)</SubHead>
-      <p className="sIntro" style={{ marginBottom: ".7rem" }}>
-        These companies sell <em>to</em> PlayBlue, wholesale. Their India revenue sizes the
-        wholesale pool PlayBlue is trying to intermediate — it is not a bar to clear.
-      </p>
-      <Bars>
-        {arena.suppliersBars.map((b, i) => (
-          <BarRow key={i} name={b.name} sub={b.sub} value={b.value} widthPct={b.widthPct} variant={b.variant as "q" | "t" | undefined} />
-        ))}
-      </Bars>
-      <Callout tone="amber" label={arena.suppliersCallout.label}>
-        <RT text={arena.suppliersCallout.text} />
-      </Callout>
-
-      <SubHead mark="5b">Layer 2 — vertically integrated retail (PlayBlue&rsquo;s real revenue comparators)</SubHead>
+      <SubHead mark="5a">Layer 2 vs 3 — the apples-to-apples retail-revenue comparison</SubHead>
       <p className="sIntro" style={{ marginBottom: ".7rem" }}>
         Same shelf, same customer wallet, structurally different economics — full
         manufacturer-plus-retail margin, versus PlayBlue&rsquo;s retail margin only. This is
@@ -70,12 +56,12 @@ export function Section05Arena() {
         <RT text={arena.retailCallout.text} />
       </Callout>
 
-      <SubHead mark="5c">The five layers, in detail</SubHead>
+      <SubHead mark="5b">The five layers, in detail</SubHead>
       {layers.map((l, i) => (
         <DataAccordion spec={l} srcBase="" key={i} />
       ))}
 
-      <SubHead mark="5d">Presence across the value chain</SubHead>
+      <SubHead mark="5c">Presence across the value chain</SubHead>
       <p className="sIntro" style={{ marginBottom: ".6rem" }}>
         Rows grouped by layer. Stage numbers correspond to section 04.
       </p>

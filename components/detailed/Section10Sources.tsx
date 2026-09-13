@@ -1,7 +1,10 @@
 import { Fragment } from "react";
-import { Section, Callout } from "@/components/ui";
+import { Section, Callout, Chip } from "@/components/ui";
 import { RT } from "@/lib/richText";
+import type { SourceSpec } from "@/lib/content-types";
 import sources from "@/data/detailed/sources.json";
+
+const sourceList = sources.sources as SourceSpec[];
 
 export function Section10Sources() {
   return (
@@ -25,9 +28,17 @@ export function Section10Sources() {
       </Callout>
 
       <ol className="src">
-        {sources.sources.map((s) => (
+        {sourceList.map((s) => (
           <li id={s.id} key={s.id}>
-            {s.label} <a href={s.url}>{s.host}</a>
+            {s.label}{" "}
+            {s.needsVerification ? (
+              <span className="mn" style={{ color: "var(--mute)" }}>
+                {s.host}
+              </span>
+            ) : (
+              <a href={s.url}>{s.host}</a>
+            )}{" "}
+            {s.needsVerification ? <Chip tone="w">unverified — do not cite externally</Chip> : null}
           </li>
         ))}
       </ol>

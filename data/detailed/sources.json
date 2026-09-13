@@ -40,7 +40,23 @@
     { "id": "r37", "label": "LinkedIn/Sahoo — Decathlon's vertical integration model, own-brand portfolio.", "url": "https://www.linkedin.com/pulse/decathlons-evolutionary-brand-strategy-sport-retail-industry-sahoo", "host": "linkedin.com" },
     { "id": "r38", "label": "Apparel Resources — Decathlon lists rival brands online; single-brand vs multi-brand FDI distinction.", "url": "https://in.apparelresources.com/business-news/retail/decathlon-india-begins-listing-rival-brands-website/", "host": "in.apparelresources.com" },
     { "id": "r39", "label": "Business Standard — Reliance Retail exploring a Decathlon-rival sports format.", "url": "https://www.business-standard.com/companies/news/reliance-retail-plans-to-launch-sports-format-to-compete-with-decathlon-124070900620_1.html", "host": "business-standard.com" },
-    { "id": "r40", "label": "Outlook Business — Decathlon seeking multi-brand retail permission from government.", "url": "https://www.outlookbusiness.com/news/reliance-retail-plans-to-enter-sportswear-space-says-report", "host": "outlookbusiness.com" },
-    { "id": "r41", "label": "Reliance Industries / X — Yousta FIFA licensed apparel collection, June 2026.", "url": "https://x.com/RIL_Updates/status/2069343976021529082", "host": "x.com/RIL_Updates" }
+    { "id": "r40", "label": "FashionNetwork / Economic Times — Decathlon global CEO confirms request to sell other brands, capped at 20% of inventory.", "url": "VERIFY_URL", "host": "fashionnetwork.com", "needsVerification": true, "note": "Replaces the original r40, whose label (Decathlon multi-brand request) did not match its URL (a Reliance/Outlook Business story). Do not cite externally until the URL above is manually confirmed." },
+    { "id": "r41", "label": "Reliance Industries / X — Yousta FIFA licensed apparel collection, June 2026.", "url": "https://x.com/RIL_Updates/status/2069343976021529082", "host": "x.com/RIL_Updates" },
+    { "id": "r42", "label": "Tofler / PTI — Decathlon Sports India FY23–FY25 revenue and profit, via MCA filings.", "url": "VERIFY_URL", "host": "tofler.in", "needsVerification": true },
+    { "id": "r43", "label": "Deloitte India x Health & Fitness Association India — India Fitness Market Report 2025 (12.3M members, 0.8% penetration, 2024 data).", "url": "VERIFY_URL", "host": "deloitte.com", "needsVerification": true },
+    { "id": "r44", "label": "MoSPI — Time Use Survey 2024, full report (primary, not via aggregator summary).", "url": "VERIFY_URL", "host": "mospi.gov.in", "needsVerification": true },
+    { "id": "r45", "label": "India Retailing — Foot Locker India debut, Metro Brands offline + Nykaa Fashion online licence, Koramangala 3,333 sq ft store.", "url": "VERIFY_URL", "host": "indiaretailing.com", "needsVerification": true },
+    { "id": "r46", "label": "Tracxn — Sports Station (SSIPL) revenue ~₹172 Cr, 70+ stores, 50 cities, brand mix.", "url": "VERIFY_URL", "host": "tracxn.com", "needsVerification": true },
+    { "id": "r47", "label": "Business Standard — Rakesh Biyani (Future Group CEO-Retail) on Planet Sports peak scale, 18 Dec 2010.", "url": "VERIFY_URL", "host": "business-standard.com", "needsVerification": true },
+    { "id": "r48", "label": "SGI Europe — JD Sports FY2026 results, own-brand and exclusive share of apparel mix.", "url": "VERIFY_URL", "host": "sgieurope.com", "needsVerification": true },
+    { "id": "r49", "label": "Metro Brands — FY26 company results, gross/EBITDA margin, Foot Locker licence.", "url": "VERIFY_URL", "host": "metrobrands.com", "needsVerification": true },
+    { "id": "r50", "label": "Modern Retail / WWD — Nike Consumer Direct Acceleration wholesale-partner cuts, and 2024 wholesale-strategy reversal.", "url": "VERIFY_URL", "host": "modernretail.co", "needsVerification": true },
+    { "id": "r51", "label": "RiseIndia / SSIPL corporate sites — current Nike India distribution structure since 2022.", "url": "VERIFY_URL", "host": "riseindia.com", "needsVerification": true },
+    { "id": "r52", "label": "Aditya Birla Fashion & Retail — Reebok India licence announcement, 14 Dec 2021.", "url": "VERIFY_URL", "host": "abfrl.com", "needsVerification": true },
+    { "id": "r53", "label": "Entrackr — BlissClub RoC filing, FY25 revenue and net loss.", "url": "VERIFY_URL", "host": "entrackr.com", "needsVerification": true },
+    { "id": "r54", "label": "Tofler — Puma Sports India CY23 revenue, EBITDA, net profit, gross margin.", "url": "VERIFY_URL", "host": "tofler.in", "needsVerification": true },
+    { "id": "r55", "label": "FashionNetwork / Economic Times — Decathlon global CEO Barbara Martin Coppola on multi-brand licence request, cap at 20% of inventory.", "url": "VERIFY_URL", "host": "fashionnetwork.com", "needsVerification": true },
+    { "id": "r56", "label": "Cushman & Wakefield — India retail MarketBeat, Q1 2026 leasing and vacancy.", "url": "VERIFY_URL", "host": "cushmanwakefield.com", "needsVerification": true },
+    { "id": "r57", "label": "Invest India / DPIIT — Consolidated FDI Policy, single-brand vs multi-brand retail trading conditions.", "url": "VERIFY_URL", "host": "investindia.gov.in", "needsVerification": true }
   ]
 }

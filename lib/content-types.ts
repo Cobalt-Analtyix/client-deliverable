@@ -59,3 +59,13 @@ export type MatrixRowSpec = {
   cells: ("f" | "p" | "o")[];
   me?: boolean;
 };
+
+export type SourceSpec = {
+  id: string;
+  label: string;
+  url: string;
+  host: string;
+  /** True when `url` is a placeholder ("VERIFY_URL") pending manual confirmation — not safe to cite externally. */
+  needsVerification?: boolean;
+  note?: string;
+};

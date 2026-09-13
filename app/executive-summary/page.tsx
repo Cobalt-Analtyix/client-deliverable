@@ -37,7 +37,7 @@ export default function ExecutiveSummaryPage() {
             <h2>The executive read</h2>
           </div>
           <p className="sIntro">
-            Seven observations that shape how we see this business. Each is expandable for the
+            Six observations that shape how we see this business. Each is expandable for the
             underlying evidence — source references (e.g. <span className="mn">SRC 37</span>)
             jump to the full citation list on the detailed research page.
           </p>
