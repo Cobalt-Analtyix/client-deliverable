@@ -107,16 +107,24 @@ export function Section08Proposal() {
       </CardGrid>
 
       <Callout tone="blue" label="How to judge whether it worked">
-        <RT text={proposal.judgeCallout} />
+        <p style={{ marginBottom: ".5rem" }}>{proposal.judgeCallout.intro}</p>
+        <ol className="judgeList">
+          {proposal.judgeCallout.items.map((item: string, i: number) => (
+            <li key={i}>
+              <RT text={item} />
+            </li>
+          ))}
+        </ol>
+        <p style={{ marginBottom: 0 }}>{proposal.judgeCallout.outro}</p>
       </Callout>
 
-      <Callout tone="amber" label="On staging">
+      {/* <Callout tone="amber" label="On staging">
         <RT text={proposal.stagingCallout} />
       </Callout>
 
       <Callout tone="amber" label={proposal.feePlaceholder.label}>
         <RT text={proposal.feePlaceholder.text} />
-      </Callout>
+      </Callout> */}
     </Section>
   );
 }

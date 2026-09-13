@@ -163,7 +163,15 @@
       "text": "It will not select your sites — that is a separate study with a spatial component. It will not tell you what your unit economics are, because that needs your cost data. It will not validate the 4-hour delivery build economically; it only tells you what customers will pay for it."
     }
   ],
-  "judgeCallout": "Three tests, agreed upfront. One: at least one differentiator is ranked materially lower by consumers than PlayBlue currently assumes, or all four are confirmed with evidence you can cite. Two: the category ranking changes at least one buying decision. Three: you can state a price position by category with a number behind it. If none of those happen, the study did not earn its cost and we would rather you knew the criteria in advance.",
+  "judgeCallout": {
+    "intro": "Three tests, agreed upfront.",
+    "items": [
+      "At least one differentiator is ranked materially lower by consumers than PlayBlue currently assumes, or all four are confirmed with evidence you can cite.",
+      "The category ranking changes at least one buying decision.",
+      "You can state a price position by category with a number behind it."
+    ],
+    "outro": "If none of those happen, the study did not earn its cost and we would rather you knew the criteria in advance."
+  },
   "stagingCallout": "If a four-week scope is too much for a first engagement, Module A alone runs in two to three weeks and answers the highest-value question on its own. We would rather start narrow and earn the rest than oversell the first piece.",
   "trackOne": {
     "mark": "TRACK 1",

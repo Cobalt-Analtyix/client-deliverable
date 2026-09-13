@@ -12,21 +12,6 @@
   ],
   "stakeholders": [
     {
-      "title": "Amit Bindrani — Senior General Manager, Arvind Limited",
-      "desc": "Two decades of retail operating leadership across three major Indian formats",
-      "body": [
-        { "type": "field", "label": "Career background", "items": [
-          "Senior General Manager, Arvind Limited — Ahmedabad, since 2023",
-          "General Manager, Operations, Arvind Limited, 2016–2023",
-          "Regional Sales Manager, Arvind Limited, 2014–2016",
-          "Cluster Manager, Reliance Trends, 2008–2014",
-          "Store Manager, Pantaloons, 2005–2008",
-          "MA, London Metropolitan University"
-        ] },
-        { "type": "highlight", "label": "Relevance to this engagement", "text": "Two decades of operating discipline spanning large-format, multi-brand and specialty retail — store rollout, regional sales leadership, and operations management at scale. That range of formats, from Pantaloons through Reliance Trends to Arvind, is a directly relevant lens on the store rollout and assortment decisions PlayBlue is now working through." }
-      ]
-    },
-    {
       "title": "Satyam Trivedi — Co-founder",
       "desc": "Institutional sports operator. The brand-access advantage.",
       "body": [
@@ -81,15 +66,6 @@
         { "type": "field", "label": "WEH Ventures", "text": "Participating investor. Indian early-stage fund." },
         { "type": "highlight", "label": "Worth asking", "text": "MIXI's stated thesis flags parents buying for children. PlayBlue's public segmentation does not. Either it is a deliberate omission or an unclaimed segment — and it has very different format implications." },
         { "type": "chips", "items": [{ "label": "SRC 05", "tone": "s", "srcId": "r5" }, { "label": "SRC 06", "tone": "s", "srcId": "r6" }] }
-      ]
-    },
-    {
-      "title": "CFO and board — referenced but not named",
-      "desc": "Implied by the F&A job posting. Unknown composition.",
-      "body": [
-        { "type": "p", "text": "The F&A Head posting refers to \"the models the board and the CFO run the business on,\" implying both exist. A co-led seed round typically produces investor-nominated directors. Nobody is publicly named." },
-        { "type": "highlight", "label": "Why it matters", "text": "If the buying decision routes through a CFO measuring cost per decision rather than through an operator measuring risk reduction, the framing changes materially. Worth asking early who else would be in the room." },
-        { "type": "chips", "items": [{ "label": "Needs verification", "tone": "w" }] }
       ]
     }
   ],
