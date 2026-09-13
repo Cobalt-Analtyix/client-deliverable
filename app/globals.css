@@ -37,9 +37,9 @@ a{color:var(--cobalt)}
 /* ============ SECONDARY / SECTION NAV ============ */
 .secnav{position:sticky;top:49px;z-index:55;display:flex;gap:.05rem;overflow-x:auto;scrollbar-width:none;background:rgba(239,239,234,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);max-width:1180px;margin:0 auto;padding:0 1.5rem}
 .secnav::-webkit-scrollbar{display:none}
-.secnav a{font-family:var(--mno);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;color:var(--mute);padding:.5rem .55rem;white-space:nowrap;border-bottom:2px solid transparent}
-.secnav a:hover{color:var(--cobalt)}
-.secnav a.on{color:var(--cobalt);border-bottom-color:var(--cobalt)}
+.secnav a,.secnav button{font-family:var(--mno);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;color:var(--mute);background:transparent;border:none;border-bottom:2px solid transparent;padding:.5rem .55rem;white-space:nowrap;cursor:pointer}
+.secnav a:hover,.secnav button:hover{color:var(--cobalt)}
+.secnav a.on,.secnav button.on{color:var(--cobalt);border-bottom-color:var(--cobalt)}
 @media(max-width:820px){.secnav{padding:0 .9rem}}
 
 .wrap{max-width:1180px;margin:0 auto;padding:0 1.5rem 6rem}

@@ -1,0 +1,108 @@
+{
+  "company": [
+    { "label": "Legal entity", "value": "PlayBlue Sports Pvt. Ltd.", "chips": [{ "label": "Sourced", "tone": "g" }] },
+    { "label": "Founded", "value": "2025, by Satyam Trivedi and Jayam Vora" },
+    { "label": "Base", "value": "Bengaluru (registered, first flagship). Corporate functions appear to be forming in Ahmedabad", "chips": [{ "label": "Inferred" }] },
+    { "label": "Model", "value": "Omnichannel multi-brand sports retail — 100+ Indian and global brands across athleisure, footwear, equipment, fitness gear, recovery and nutrition" },
+    { "label": "Capital raised", "value": "USD 2.7M seed (≈₹25.7 Cr), announced 3 July 2026. Co-led by Centre Court Capital and MIXI Global Investments; WEH Ventures participating" },
+    { "label": "First format", "value": "15,000 sq ft experiential flagship, Bengaluru. Mumbai and Delhi NCR to follow" },
+    { "label": "Customer promise", "value": "4-hour delivery, expert in-store guidance, curated multi-brand assortment, centralised inventory" },
+    { "label": "Trading status", "value": "Not live. Site is a brand page and waitlist; careers page confirms the online store does not exist yet" },
+    { "label": "Public content", "value": "Editorial on Olympic hosting ambition, community participation growth, and sports sector investment — all dated April 2026, pre-funding" }
+  ],
+  "stakeholders": [
+    {
+      "title": "Amit Bindrani — Senior General Manager, Arvind Limited",
+      "desc": "Two decades of retail operating leadership across three major Indian formats",
+      "body": [
+        { "type": "field", "label": "Career background", "items": [
+          "Senior General Manager, Arvind Limited — Ahmedabad, since 2023",
+          "General Manager, Operations, Arvind Limited, 2016–2023",
+          "Regional Sales Manager, Arvind Limited, 2014–2016",
+          "Cluster Manager, Reliance Trends, 2008–2014",
+          "Store Manager, Pantaloons, 2005–2008",
+          "MA, London Metropolitan University"
+        ] },
+        { "type": "highlight", "label": "Relevance to this engagement", "text": "Two decades of operating discipline spanning large-format, multi-brand and specialty retail — store rollout, regional sales leadership, and operations management at scale. That range of formats, from Pantaloons through Reliance Trends to Arvind, is a directly relevant lens on the store rollout and assortment decisions PlayBlue is now working through." }
+      ]
+    },
+    {
+      "title": "Satyam Trivedi — Co-founder",
+      "desc": "Institutional sports operator. The brand-access advantage.",
+      "body": [
+        { "type": "field", "label": "Track record", "items": [
+          "CEO, GMR Sports — cricket conglomerate across geographies (IPL, WPL, ILT20, The Hundred, PKL); created new IPs and infrastructure projects",
+          "Deputy CEO & Executive Director, RPSG Sports — franchises in India and South Africa (IPL, SA20, ISL)",
+          "Founding member and CEO, Adani Sportsline — built from the ground up (PKL, WPL, Ahmedabad Marathon)",
+          "Also associated with Ultimate Kho Kho and Big Bout Indian Boxing League"
+        ] },
+        { "type": "highlight", "label": "Strategic read", "text": "This is the asset that makes 100+ brand partnerships plausible at seed stage — very few Indian retail founders can open those doors. It is also a sports-industry network rather than a retail one, which is why the operating hires are being recruited from outside." },
+        { "type": "chips", "items": [{ "label": "SRC 11", "tone": "s", "srcId": "r11" }, { "label": "SRC 10", "tone": "s", "srcId": "r10" }] }
+      ]
+    },
+    {
+      "title": "Jayam Vora — Co-founder",
+      "desc": "Consumer and fitness operator. Most likely internal champion for consumer research.",
+      "body": [
+        { "type": "field", "label": "Track record", "items": [
+          "Co-founder, Fitternity — India's largest fitness booking platform, 1M+ paid users, acquired by Curefit in 2021",
+          "Cult.fit leadership team; led Gold's Gym India, co-led the 300+ gym cultpass network",
+          "Investor and strategic advisor to Indian D2C brands across jewellery, personal care and perfumery",
+          "The public voice on market sizing and the retail touchpoint gap"
+        ] },
+        { "type": "highlight", "label": "Strategic read", "text": "Fitternity and cultpass are membership and retention businesses. That experience maps directly onto the 10M-community ambition — and means he will already have views on what a consumer data layer needs to look like. Expect a sophisticated buyer, not a persuadable one." },
+        { "type": "chips", "items": [{ "label": "SRC 10", "tone": "s", "srcId": "r10" }, { "label": "SRC 07", "tone": "s", "srcId": "r7" }] }
+      ]
+    },
+    {
+      "title": "Mustafa Ghouse — Centre Court Capital, co-lead investor",
+      "desc": "Sector-specialist fund with an explicit analytics thesis.",
+      "body": [
+        { "type": "field", "label": "Position", "items": [
+          "Founder and General Partner; former professional tennis player; former CEO, JSW Sports",
+          "Closed a ₹410 Cr maiden fund in Dec 2025, oversubscribed against a ₹350 Cr target",
+          "Cheques of ₹8–24 Cr across a planned 15–18 companies; 30–40% reserved for follow-ons; leads or co-leads most deals",
+          "LP base includes Neeraj Chopra, Rishabh Pant, PV Sindhu, Jemimah Rodrigues, Binny Bansal, Mithun Sacheti, Ankit Nagori, Premji Invest and SIDBI",
+          "Portfolio: Michezo Sports (infrastructure), Quidich Innovation Labs (broadcast tech), Stupa Sports (data), Fancraze"
+        ] },
+        { "type": "highlight", "label": "Strategic read", "text": "His stated thesis names \"infrastructure, analytics and fan-facing products.\" The portfolio is weighted toward data and technology rather than merchandising. A PlayBlue that can show consumer evidence rather than assertion fits that thesis; one that cannot, fits it less well. This is the most receptive audience in the room for what we do." },
+        { "type": "chips", "items": [
+          { "label": "SRC 13", "tone": "s", "srcId": "r13" },
+          { "label": "SRC 14", "tone": "s", "srcId": "r14" },
+          { "label": "SRC 22", "tone": "s", "srcId": "r22" }
+        ] }
+      ]
+    },
+    {
+      "title": "MIXI Global Investments and WEH Ventures",
+      "desc": "Japanese strategic capital plus an Indian early-stage fund.",
+      "body": [
+        { "type": "field", "label": "MIXI Global — Tomoharu Urabe, Managing Director", "text": "Co-lead. Public rationale centres on rising participation across age groups and, notably, parent-led youth participation — a segment PlayBlue's own materials do not name. Brings comparative format expectations from a more mature market." },
+        { "type": "field", "label": "WEH Ventures", "text": "Participating investor. Indian early-stage fund." },
+        { "type": "highlight", "label": "Worth asking", "text": "MIXI's stated thesis flags parents buying for children. PlayBlue's public segmentation does not. Either it is a deliberate omission or an unclaimed segment — and it has very different format implications." },
+        { "type": "chips", "items": [{ "label": "SRC 05", "tone": "s", "srcId": "r5" }, { "label": "SRC 06", "tone": "s", "srcId": "r6" }] }
+      ]
+    },
+    {
+      "title": "CFO and board — referenced but not named",
+      "desc": "Implied by the F&A job posting. Unknown composition.",
+      "body": [
+        { "type": "p", "text": "The F&A Head posting refers to \"the models the board and the CFO run the business on,\" implying both exist. A co-led seed round typically produces investor-nominated directors. Nobody is publicly named." },
+        { "type": "highlight", "label": "Why it matters", "text": "If the buying decision routes through a CFO measuring cost per decision rather than through an operator measuring risk reduction, the framing changes materially. Worth asking early who else would be in the room." },
+        { "type": "chips", "items": [{ "label": "Needs verification", "tone": "w" }] }
+      ]
+    }
+  ],
+  "statedGoals": [
+    { "text": "Reach ₹100 crore in revenue and operational profitability in phase one, before the next fundraise.", "chips": [{ "label": "SRC 06 · Company release, 3 Jul 2026", "tone": "s", "srcId": "r6" }] },
+    { "text": "Open a 15,000 sq ft flagship in Bengaluru, then expand to Mumbai and Delhi NCR.", "chips": [{ "label": "SRC 04", "tone": "s", "srcId": "r4" }, { "label": "SRC 02", "tone": "s", "srcId": "r2" }] },
+    { "text": "Launch a pan-India e-commerce platform in parallel with the stores, not after them.", "chips": [{ "label": "SRC 04", "tone": "s", "srcId": "r4" }, { "label": "SRC 15", "tone": "s", "srcId": "r15" }] },
+    { "text": "Bring together 100+ global and Indian brands across six categories.", "chips": [{ "label": "SRC 06", "tone": "s", "srcId": "r6" }] },
+    { "text": "Build a network of more than 150 stores over five years.", "chips": [{ "label": "SRC 03", "tone": "s", "srcId": "r3" }] },
+    { "text": "Reach ₹5,000 crore in annual revenue on a five-year horizon.", "chips": [{ "label": "SRC 08", "tone": "s", "srcId": "r8" }] },
+    { "text": "Deliver 4-hour delivery, expert in-store guidance and centralised cross-channel inventory as the core customer promise.", "chips": [{ "label": "SRC 09", "tone": "s", "srcId": "r9" }, { "label": "SRC 12", "tone": "s", "srcId": "r12" }] },
+    { "text": "Build a community that goes beyond the transaction, framed around accelerating India's shift from watching sport to playing it.", "chips": [{ "label": "SRC 10", "tone": "s", "srcId": "r10" }] },
+    { "text": "Stand up a quick-commerce fulfilment operation alongside standard e-commerce delivery.", "chips": [{ "label": "SRC 15", "tone": "s", "srcId": "r15" }] },
+    { "text": "Build finance, HR, buying and brand partnership functions from zero, based in Ahmedabad.", "chips": [{ "label": "SRC 15", "tone": "s", "srcId": "r15" }] }
+  ]
+}

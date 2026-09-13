@@ -1,0 +1,136 @@
+{
+  "market": [
+    {
+      "title": "Hard goods are compounding at ~7.4%; apparel and athleisure at 12%+",
+      "body": [
+        { "type": "p", "text": "Sports and fitness goods: USD 5.24B in 2025 to USD 10.70B by 2035 at 7.4%. Athleisure in India: 12.7% CAGR 2026–33, well above the global 9.9%. The category PlayBlue leads with — curated equipment and specialist gear — grows at roughly half the rate of the category it competes in on price." },
+        { "type": "chips", "items": [{ "label": "SRC 21", "tone": "s", "srcId": "r21" }, { "label": "SRC 27", "tone": "s", "srcId": "r27" }] }
+      ]
+    },
+    {
+      "title": "Value growth is outpacing volume as the mix premiumises",
+      "body": [
+        { "type": "p", "text": "Technical materials, smart fitness systems and branded protective gear are lifting average realisation. Volume growth of 5.2–5.5% against 7.4% value growth. Globally, the premium athleisure segment is forecast at 10.45% CAGR against 65.6% of 2025 revenue still sitting in mass-market lines. Favourable for a curated premium format — provided Indian willingness to pay has moved as fast as the assortment." },
+        { "type": "chips", "items": [{ "label": "SRC 18", "tone": "s", "srcId": "r18" }, { "label": "SRC 35", "tone": "s", "srcId": "r35" }] }
+      ]
+    },
+    {
+      "title": "Kids and women are the fastest-growing end-user segments",
+      "body": [
+        { "type": "p", "text": "Globally the kids and children segment is forecast at 11.82% CAGR to 2031 against 91.8% of 2025 revenue coming from adults. In India, women were the largest athleisure segment at 56.8% of 2025 share and also the fastest growing — the insight BlissClub built a ₹250 Cr business on. Both segments are under-served by a format built around serious athletes." },
+        { "type": "chips", "items": [{ "label": "SRC 35", "tone": "s", "srcId": "r35" }, { "label": "SRC 31", "tone": "s", "srcId": "r31" }] }
+      ]
+    },
+    {
+      "title": "Online is taking share of sports retail faster than stores",
+      "body": [
+        { "type": "p", "text": "Sports and athletic goods stores held 39.7% of 2025 athleisure sales globally, but online retail is advancing at 11.36% CAGR. In India, Myntra, Amazon, Ajio and Decathlon reported over 35% YoY growth in online sports apparel demand in 2024, and online fashion order volume rose 20.9% in FY24. PlayBlue's parallel e-commerce build is strategically correct — and the stage it is least equipped for." },
+        { "type": "chips", "items": [{ "label": "SRC 35", "tone": "s", "srcId": "r35" }, { "label": "SRC 32", "tone": "s", "srcId": "r32" }, { "label": "SRC 33", "tone": "s", "srcId": "r33" }] }
+      ]
+    },
+    {
+      "title": "Price sensitivity and counterfeit supply remain the binding constraint",
+      "body": [
+        { "type": "p", "text": "Strong price sensitivity and the continued dominance of unorganised and counterfeit channels are named as the primary restraint on the India sports apparel market, particularly in tier-II and tier-III cities. Over 70% of premium sportswear sold in India in 2024 came from international brands — a small, contested, metro-concentrated pool." },
+        { "type": "chips", "items": [{ "label": "SRC 33", "tone": "s", "srcId": "r33" }, { "label": "SRC 34", "tone": "s", "srcId": "r34" }] }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "title": "Direct state support for domestic sports-goods manufacturing",
+      "body": [
+        { "type": "p", "text": "An INR 500 crore sports-goods manufacturing allocation plus a proposed cluster-development roadmap is expected to redirect profit pools toward design, quality assurance, connected products, e-commerce fulfilment and compliant domestic production. This advantages players with local sourcing depth — Decathlon and the domestic manufacturers — over a multi-brand importer." },
+        { "type": "chips", "items": [{ "label": "SRC 18", "tone": "s", "srcId": "r18" }] }
+      ]
+    },
+    {
+      "title": "Local sourcing has hardened from policy into competitive economics",
+      "body": [
+        { "type": "p", "text": "Decathlon's shift from 68% to a targeted 85% local sourcing is framed around Make in India but functions as a cost and resilience advantage. For a retailer dependent on imported global brands, this widens the landed-cost gap on comparable products — and it is the strongest argument for PlayBlue eventually developing private label." },
+        { "type": "chips", "items": [{ "label": "SRC 19", "tone": "s", "srcId": "r19" }] }
+      ]
+    },
+    {
+      "title": "Public sports investment is expanding the participation base",
+      "body": [
+        { "type": "p", "text": "The Department of Sport budget grew from roughly $79M in 2011–12 to $211M in 2021–22. Sustained public and private infrastructure investment is cited across market analyses as a participation driver in both urban and rural areas. India's Olympic hosting ambition — a subject PlayBlue itself has published on — sits within this. Slow-moving but directionally favourable." },
+        { "type": "chips", "items": [{ "label": "SRC 36", "tone": "s", "srcId": "r36" }, { "label": "SRC 10", "tone": "s", "srcId": "r10" }] }
+      ]
+    },
+    {
+      "title": "FDI structure in multi-brand retail — flagged, not asserted",
+      "body": [
+        { "type": "p", "text": "India's distinction between single-brand and multi-brand retail FDI has historically constrained foreign-owned multi-brand formats and shaped partnership structures. Relevant to how PlayBlue structures brand relationships and any future foreign strategic investment — particularly given a Japanese co-lead investor. We have not established the current position and would not put a figure on it without a specialist legal read." },
+        { "type": "chips", "items": [{ "label": "Needs verification", "tone": "w" }] }
+      ]
+    }
+  ],
+  "capital": [
+    {
+      "title": "Dedicated sports-sector venture capital now exists at meaningful scale",
+      "body": [
+        { "type": "p", "text": "Centre Court Capital closed a ₹410 crore maiden fund in December 2025, oversubscribed against a ₹350 crore target. Cheques of ₹8–24 crore across 15–18 companies in sports, fitness, wellness and social gaming, with 30–40% reserved for follow-ons and deployment expected within 12–18 months. Sector-specific capital at this scale did not exist in India three years ago." },
+        { "type": "chips", "items": [{ "label": "SRC 13", "tone": "s", "srcId": "r13" }, { "label": "SRC 14", "tone": "s", "srcId": "r14" }] }
+      ]
+    },
+    {
+      "title": "Athlete and operator capital is entering the LP base",
+      "body": [
+        { "type": "p", "text": "Centre Court's fund drew Neeraj Chopra, Rishabh Pant, PV Sindhu and Jemimah Rodrigues alongside Binny Bansal, Mithun Sacheti and Ankit Nagori, with institutional backing from Premji Invest and SIDBI. Athlete-adjacent capital brings distribution and credibility, not only money — directly relevant to PlayBlue's brand-access advantage." },
+        { "type": "chips", "items": [{ "label": "SRC 14", "tone": "s", "srcId": "r14" }] }
+      ]
+    },
+    {
+      "title": "The capital is going to infrastructure and analytics, not merchandising",
+      "body": [
+        { "type": "p", "text": "Centre Court's portfolio spans sports infrastructure (Michezo Sports, ~USD 2.5M pre-Series A with Zerodha's Rainmatter), broadcast technology (Quidich Innovation Labs) and sports data (Stupa). The stated thesis names infrastructure, analytics and fan-facing products. A data-led retailer fits that thesis; a purely merchandising one fits it less well." },
+        { "type": "chips", "items": [{ "label": "SRC 14", "tone": "s", "srcId": "r14" }, { "label": "SRC 22", "tone": "s", "srcId": "r22" }] }
+      ]
+    },
+    {
+      "title": "Homegrown sports brands are attracting institutional growth capital",
+      "body": [
+        { "type": "p", "text": "Technosport raised ₹175 Cr from A91 Partners; BlissClub has raised over $21M from Elevation Capital and Eight Roads and is raising a further $25M. Capital is validating vertical integration and category focus — the opposite structural bet to multi-brand curation. Worth understanding how PlayBlue's Series A story differentiates from theirs." },
+        { "type": "chips", "items": [{ "label": "SRC 31", "tone": "s", "srcId": "r31" }] }
+      ]
+    },
+    {
+      "title": "Cross-border strategic capital is entering Indian sport",
+      "body": [
+        { "type": "p", "text": "MIXI Global Investments co-leading PlayBlue's seed round is an instance of Japanese strategic capital taking positions in Indian sports consumer businesses. Suggests the category is being underwritten internationally, which matters for Series A optionality and for who the eventual acquirers might be." },
+        { "type": "chips", "items": [{ "label": "SRC 05", "tone": "s", "srcId": "r5" }, { "label": "SRC 06", "tone": "s", "srcId": "r6" }] }
+      ]
+    }
+  ],
+  "realEstate": [
+    {
+      "title": "Retail leasing at a four-year high against a collapsing supply pipeline",
+      "body": [
+        { "type": "p", "text": "H1 2026 gross leasing across the top seven cities reached 6.27 million sq ft, up 10.5% — the highest half-year in four years. New shopping mall supply fell 64% year on year and no new Grade A mall space was added for two consecutive quarters. Retailers are being pushed to evaluate Grade B assets. The 2026–28 pipeline is 12.7 million sq ft, with about 1.6 million sq ft due in H2 2026." },
+        { "type": "chips", "items": [{ "label": "SRC 28", "tone": "s", "srcId": "r28" }, { "label": "SRC 29", "tone": "s", "srcId": "r29" }, { "label": "SRC 30", "tone": "s", "srcId": "r30" }] }
+      ]
+    },
+    {
+      "title": "PlayBlue's three target cities are the three most contested markets",
+      "body": [
+        { "type": "p", "text": "Mumbai (29%), Delhi NCR (24%) and Bengaluru (23%) together took over 75% of H1 2026 retail leasing volume. Domestic brands accounted for 79.1% of that demand. These are precisely PlayBlue's rollout cities, and the competition for space is domestic rather than international." },
+        { "type": "chips", "items": [{ "label": "SRC 29", "tone": "s", "srcId": "r29" }] }
+      ]
+    },
+    {
+      "title": "High-street rents are rising fastest exactly where a flagship would go",
+      "body": [
+        { "type": "p", "text": "Mumbai's Linking Road recorded a 22% annual rent increase; Bengaluru's Indiranagar 100 Feet Road 12%; Chennai's Anna Nagar 2nd Avenue 11%; Delhi NCR's Khan Market 9%. Malls took 51.3% of Q2 2026 leasing and main streets 48.7%. Occupiers are competing hard for well-located assets, producing tighter vacancies and firmer rents." },
+        { "type": "chips", "items": [{ "label": "SRC 30", "tone": "s", "srcId": "r30" }] }
+      ]
+    },
+    {
+      "title": "Experience-driven formats are gaining mall share",
+      "body": [
+        { "type": "p", "text": "Malls' share of gross leasing rose to 43.1% from 38.9% a year earlier, attributed to consumer preference for experience-driven retail. Supportive of PlayBlue's experiential format thesis — and equally supportive of every other experiential retailer bidding for the same anchor space." },
+        { "type": "chips", "items": [{ "label": "SRC 29", "tone": "s", "srcId": "r29" }] }
+      ]
+    }
+  ]
+}

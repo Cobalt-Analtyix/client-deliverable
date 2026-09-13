@@ -1,0 +1,188 @@
+{
+  "readingCallout": "PlayBlue's public evidence of activity clusters at stages **01** (brand access), **04** (brand narrative) and **05** (the store). Stages **03, 06, 07 and 08** are explicitly not built. That is normal for a pre-launch retailer — but the operating spine and the profitability path both run through the stages with the least in place.",
+  "stages": [
+    {
+      "num": "01",
+      "title": "Brand & supply sourcing",
+      "desc": "Securing the right to sell, on workable terms ·",
+      "descSuffix": { "text": "PlayBlue: active", "color": "cobalt" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Brand partnership negotiation, distributor and importer relationships, private-label development, and increasingly domestic manufacturing. Determines landed cost, which determines everything downstream." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Brand and distributor contracting — margin, exclusivity, stock allocation",
+          "Import, duty and compliance for global brands",
+          "Private-label design, sourcing and QA",
+          "Domestic manufacturing and sports-goods cluster sourcing",
+          "Vendor management, PO and contract tooling"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Decathlon** — own brands, own supply chain, ~68% locally sourced in 2024 targeting 85%",
+          "**Brand principals** — Puma (₹3,274 Cr), Adidas (₹3,114 Cr), Nike (₹1,380 Cr) control their own India distribution",
+          "**Vertically integrated challengers** — Technosport owns its fabric technology and manufacturing",
+          "**Domestic manufacturers** — SG, Cosco, MRF Sports, Nivia"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Active, and this is the structural advantage. Satyam Trivedi's institutional network is the most credible route to 100+ partnerships at seed stage. A Brand Partnerships lead is being recruited to formalise the pipeline. No public evidence of private label or manufacturing — which leaves the landed-cost gap against Decathlon unaddressed." }
+      ]
+    },
+    {
+      "num": "02",
+      "title": "Assortment planning & buying",
+      "desc": "What to stock, how deep, at what price ·",
+      "descSuffix": { "text": "PlayBlue: forming", "color": "mute" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Where margin is won or lost in multi-brand retail, and the hardest thing to do well across six categories and 100+ brands at once." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Category architecture and space allocation",
+          "Range planning and open-to-buy management",
+          "Price architecture and margin planning by category",
+          "Demand forecasting and size-curve planning",
+          "Merchandise planning systems; AI-assisted allocation"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Decathlon** — controls assortment end to end through own-brand architecture",
+          "**Marketplaces** — effectively outsource assortment to seller supply",
+          "**Fashion multi-brand operators** — Shoppers Stop, Lifestyle, Reliance Trends bring mature buying discipline from adjacent categories"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Forming. The Senior Buyer posting reads as though assortment logic is still being set — it explicitly asks for someone who can identify \"white spaces nobody's filled yet.\" Highest-leverage stage for external demand evidence, and the shortest window in which that evidence is still actionable." }
+      ]
+    },
+    {
+      "num": "03",
+      "title": "Catalogue & product data",
+      "desc": "The structured layer everything digital sits on ·",
+      "descSuffix": { "text": "PlayBlue: not built", "color": "amber" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Unglamorous and load-bearing. Search, filtering, sizing, returns and conversion all depend on it." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Product information management (PIM) and taxonomy design",
+          "Attribute enrichment, imagery, cross-brand sizing normalisation",
+          "Digital asset management",
+          "Search and filter relevance tuning",
+          "Automated attribute extraction and catalogue QA"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Marketplaces** — mature catalogue infrastructure at very large scale",
+          "**Decathlon** — simplified by own-brand control and one consistent taxonomy",
+          "**PIM and commerce vendors** — where the technology scouting question sits"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Not built. The Catalog Manager posting is explicit: no product data, images, specs, sizing or structure exists. Normalising sizing across 100+ brands is genuinely hard and a known conversion killer — and unlike Decathlon, PlayBlue cannot solve it by controlling the brands." }
+      ]
+    },
+    {
+      "num": "04",
+      "title": "Demand generation & community",
+      "desc": "Reasons to care before reasons to buy ·",
+      "descSuffix": { "text": "PlayBlue: active", "color": "cobalt" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "In sports retail this extends past advertising into events, teams, athletes, clubs and participation programming." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Brand and performance marketing; CAC management",
+          "Athlete and team associations, sponsorships",
+          "Events, runs, clinics, grassroots programming",
+          "Content and owned media",
+          "CRM, CDP and audience infrastructure"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Puma** — cricket sponsorships and Bollywood ambassadors took it to No.1 in India",
+          "**Adidas** — Indian national cricket team association",
+          "**Decathlon** — participation-led, store-attached playing fields, low ad spend",
+          "**cultsport / Cult.fit** — community-led demand generation at scale",
+          "**Marketplaces** — category budgets a seed-stage entrant cannot match"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Active and ahead of the rest of the chain — brand narrative and editorial are live before the store is. Founder access to leagues, teams and athletes is real. The open question is whether community is a marketing posture or an operating model with a data layer behind it." }
+      ]
+    },
+    {
+      "num": "05",
+      "title": "Store format & experience",
+      "desc": "Where the differentiator lives or dies ·",
+      "descSuffix": { "text": "PlayBlue: building now", "color": "cobalt" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Where stores go, how they are laid out, and what happens between walking in and deciding. \"Expert guidance\" is a floor-plan and staffing decision before it is a marketing claim." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Catchment analysis and site selection",
+          "Store design, zoning and space productivity",
+          "Trial infrastructure — fitting, gait analysis, racquet demo, testing zones",
+          "Staff expertise, training and clienteling tools",
+          "POS, footfall measurement, in-store analytics"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Decathlon** — ~130 stores in 55+ cities, expanding to 190 across 90+ cities on a €100M commitment",
+          "**Puma** — 570+ stores",
+          "**Technosport** — 300 new stores announced on ₹200 Cr",
+          "**Brand flagships** — Nike, Adidas in premium metro locations"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Building. This is where the seed capital goes and where execution risk concentrates. Constrained Grade A supply and 12–22% rent growth on target high streets make site selection a strategic decision, not a property one." }
+      ]
+    },
+    {
+      "num": "06",
+      "title": "Digital commerce & omnichannel",
+      "desc": "The storefront and the connective tissue ·",
+      "descSuffix": { "text": "PlayBlue: not built", "color": "amber" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Online store plus unified inventory, click-and-collect, endless aisle, and a single customer view across store and app." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "E-commerce platform and mobile app",
+          "Unified inventory and order management",
+          "Click-and-collect, ship-from-store, endless aisle",
+          "Quick-commerce storefront and dark-store orchestration",
+          "Personalisation and conversion optimisation"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Amazon, Flipkart, Myntra, Ajio** — where online sports and athleisure discovery happens today",
+          "**Decathlon** — own platform plus an Ajio partnership extending reach",
+          "**Brand D2C** — Nike, Adidas, Puma apps and loyalty programmes",
+          "**Quick commerce** — increasingly carrying sports and fitness SKUs"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Not built. Building this in parallel with three store launches is the most demanding commitment in the plan, and the stage where a seed-stage team is most directly outgunned. Note that even Decathlon treats marketplaces as necessary distribution rather than pure competition." }
+      ]
+    },
+    {
+      "num": "07",
+      "title": "Fulfilment & supply chain",
+      "desc": "The 4-hour promise, priced ·",
+      "descSuffix": { "text": "PlayBlue: not built", "color": "amber" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "Moving product at a cost the margin can absorb. The delivery promise makes this a strategic commitment rather than a back-office function." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Warehousing and inventory positioning",
+          "Dark stores or store-as-node fulfilment",
+          "Last mile — owned or 3PL",
+          "Returns and reverse logistics",
+          "WMS, routing and delivery-promise engines"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Marketplaces** — national fulfilment at scale advantage",
+          "**Quick-commerce operators** — dark-store density that is expensive to replicate",
+          "**3PL providers** — the realistic route for a new entrant",
+          "**Decathlon** — store-backed fulfilment across 55+ cities"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Not built. Sports goods are bulky, size-variable and carry higher return rates than most categories, which makes a 4-hour promise structurally expensive. Whether customers will pay for it — or even value it — is testable before it is built, and considerably cheaper to test than to discover." }
+      ]
+    },
+    {
+      "num": "08",
+      "title": "Service, returns & loyalty",
+      "desc": "Everything that determines a second purchase ·",
+      "descSuffix": { "text": "PlayBlue: not built", "color": "amber" },
+      "body": [
+        { "type": "field", "label": "Description", "text": "In sport this is unusually rich — servicing, restringing, fitting, coaching, clubs — and it is the natural home of the community ambition." },
+        { "type": "field", "label": "Sub-stages & technologies", "items": [
+          "Returns, exchanges and warranty",
+          "Product servicing — restringing, bike service, shoe fitting, repair",
+          "Membership and loyalty design",
+          "Community programming and clubs",
+          "CDP, retention analytics, lifecycle marketing"
+        ] },
+        { "type": "field", "label": "Current players", "items": [
+          "**Decathlon** — in-store workshops and servicing at scale",
+          "**Cult.fit** — membership and retention mechanics in adjacent fitness",
+          "**Brand programmes** — Nike Membership, adiClub",
+          "**Specialist independents** — servicing depth in running, cycling, racquet sports"
+        ] },
+        { "type": "highlight", "label": "Where PlayBlue plays today", "text": "Not built. The 10M-community ambition sits here with no announced membership construct. This is where Jayam Vora's Fitternity and cultpass experience is most directly transferable — and where the tension with the profitability target is sharpest." }
+      ]
+    }
+  ]
+}
